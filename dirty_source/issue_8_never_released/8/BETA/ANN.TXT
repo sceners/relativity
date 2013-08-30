@@ -1,0 +1,22 @@
+Headline : RELATIVITY ISSUE #7 RELEASED UNDER THE REV ENGINE !!
+
+ANN: Again, Issue #8 was releasd a short while after #7 .
+
+As allways, the Relativity Crew will try to release every 2-3 weeks, until further notice.
+
+You can Download Issue #8 from http://www.scenelink.org/relativity/rev-08.zip
+again we packed the release in a .rar inside the .zip, so if you dont have rar.exe
+you can download it at : http://www.scenelink.org/relativity/rar.exe .
+the way to use rar is  : rar x rev-08.zip.
+
+* Remember this emag was released under the universal engine, so be sure to d\l 
+  the support files from www.scenelink.org/relativity/cws/Rev-sup2.zip,
+  and COPY the FX file to the Emag's Directory or else you'll get error #3 .
+
+* the relativity home site was updated, so be sure to check it out at 
+  www.scenelink.org/relativity, you can also check the CWS homesite
+  maintained by MuadDib, at www.scenelink.org/relativity .
+
+* all cws and rev releases are copmatible with the same support files, so
+  if you got the support files DONT download them again UNLESS we annouce
+  the version of the support files has changed .

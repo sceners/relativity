@@ -1,0 +1,169 @@
+
+     And guess what! It did!
+     Greets to Randall, greets to Onyx, greets to all the old dudes... =)
+
+     And if that isn't enough, they used the same nfo layout/logo as the
+     the "good old" one! That's the way TP! =)
+
+
+
+                                      ÜÛÜ
+                                    ÜÛ²²²ÛÜ
+                                  ÜÛ²²²²²²²ÛÜ
+                                ÜÛ²±±±±±±±±±²ÛÜ
+                              ÜÛ²±°°°°°°°°°°°±²ÛÜ
+                            ÜÛ²±°             °±²ÛÜ
+                          ÜÛÛßßßßßßßßßßßßßßßßßßßßßÛÛÜ
+                        ÜÛ²²²ÛÜ    S I N C E    ÜÛ²²²ÛÜ
+                      ÜÛ²²²²²²²ÛÜ   1 9 8 5   ÜÛ²²²²²²²ÛÜ
+                    ÜÛ²±±±±±±±±±²ÛÜ         ÜÛ²±±±±±±±±±²ÛÜ
+                  ÜÛ²±°°°°°°°°°°°±²ÛÜ     ÜÛ²±°°°°°°°°°°°±²ÛÜ         ú
+                ÜÛ²±°             °±²ÛÜ ÜÛ²±°             °±²ÛÜ       ù
+              ÜßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÜ     ³
+             ß                               ú ù Ä ÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄ ù ú
+         ±²ÛÛÛÛ² ±²ÛÛÛ²± ²ÛÛÛÛ²± ²ÛÛÛÛ²± ±²ÛÛÛÛ²   °±² ²ÛÛÛ²± °±² °±² ³
+         ²ÛÜÜÜÛÛ ²ÛÜÜÜÛ² ÜÜÜÜÜÛ² ÛÛ   Û² ²ÛÜÜÜÛÛ    ²Û ÛÛÜÜÛ²  ²Û  ²Û ù
+      Üß ²Û ²ÛÜÜ ²ÛÜÜ Û² ²ÛÜÜÜÜÜ ²ÛÜÜÜÛ² ²Û ²ÛÜÜ    ²Û   ÜÜÛ²  ²Û  ²Û úßÜ
+    Üß   ±² ±²Û² ±²ÛÛ Û± ±²ÛÛÛÛ² ±²ÛÛÛ²± ±² ±²Û²    ±²   ²Û²±  ±²  ±²    ßÜ
+  Üß                                                                       ßÜ
+ ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+                                                                          -BS-
+                           ğğ=- P R E S E N T S -=ğğ
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                        BugRiders: The Race of Kings                         ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËËÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º     -*- Release Information -*-     ºº       -*- Game Information -*-       º
+ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ××ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶
+º Cracker         ³ Beowulf           ºº Publisher     ³ GT Interactive       º
+º Protection Type ³ CD-Checks         ºº Graphics      ³ VGA/SVGA/D3D/OpenGL  º
+º Supplier        ³ MYM               ºº Sound         ³ SFX/Speech/Music     º
+º Rating [1-10]   ³ 7 1/2             ºº # of Disks    ³ 11                   º
+º Date of Release ³ 12/11/97          ºº Disk Size     ³ 1.44 Megabytes       º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                                Release Notes                                ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     The tournament of tournaments has begun in the land of Entymion! The
+     Emperor Leptus lies dying and twenty-two of the land's most daring,
+     ruthless, and ambitious nobles have assembled to compete in the Great
+     Race.  The winner will be crowned the next Emperor, the losers will all
+     die!
+
+     This is true-3D aerial combat racing as you've never seen it before!
+     Pass opponents from all sides, above, below, left, and right! Death can
+     strike from any angle when you have 6 degrees of freedom control at your
+     finger tips! Every BugRider has his own mount with its own freakish
+     characteristics. 16 otherworldly track variations, stunning weapons,
+     rear-fire attacks, deathmatches, and time trials. Enter the high-
+     resolution hive of insane insect racing and fly the unfriendly skies!
+
+     Umm, it's a bug racing game...scared yet?  (You should be...oof)
+
+
+                          -*- Installation Notes -*-
+
+       Q. What was ripped and why?
+       A. Well, as usual CD-Audio and Movies had to go...peace out!
+
+       Simple as always, simply unzip the files you downloaded to a temp dir
+       then create a directory you want the game to be held in.  After that,
+       simply unRAR (or unWINRAR) to the directory you previously created.
+
+       (eg:) UNRAR.EXE x -y -v bugrider.001 c:\games\bugrider
+
+       After un-RARing the game, run SETUP.EXE to setup your registry
+       settings. You can then run SPLASH.EXE to start the game. From
+       the Splash screen you can click the "Configure" button to change
+       settings in the game relating to keyboard/joystick control and
+       most importantly, 3Dfx support. =) We've also included the
+       DirectPlay v5.0a update and a newer version of MSVCRT.DLL in
+       the EXTRAS directory. If you haven't installed these updates,
+       it is recommended that you do so. Enjoy!
+
+                                                       - Beowulf
+
+       P.S. Special greets go out to those quality crackers that strive
+            for perfection and make that extra effort the user deserves:
+            Grudge, Dumdi, Cyber, Wolverine and a few others I've missed.
+            Here's hoping Santa brings you that box-copy of Numega Soft-
+            ICE v3.3 you asked for. =)
+
+
+                                      /\
+                      Razor 1911     /__\    Since 1985
+                                    /\  /\
+                                   /__\/__\
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                         Razor 1911 All-Time Greets                         ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+  The Speed Racer, The  GEcko,  Pharaoh, The  Renegade  Chemist,  The Witch
+  King,  Razor  Blade, Thirdson,  The  Chairman, Blacklight, Vitas, Beowulf
+  Wolverine,  Bunter, Toast,  r0adkill, Manhunter,  Hetero,  Spoon,  Render
+  Rapeman,  MYM, *THE*  Blue Adept, Bug  Lord,  Rom  Racer,  Pitbull,  ZEUS
+  Mad Turnip,  Hoson,  Cyber,   ][ce &  Cypher,  Rotox, The  Pep,  Hooligan
+  Shadow Master,  Cyberphreak,  Mr.  Skill, China  Blue, Mz. Bxtch, Schlack
+  Tiny 3D,   Randall  Flag,  Onyx,  Lord Thinker,  Cool  Hand,   Elvin  Nox
+  Toyman,  EvilTea,  Piston,   Jimmy  Jamez,  Rambone,  Eagle  1,  Enforcer
+  eCK,   Excessive  Knight,  The  White  Knight,  Snacky!,   Cyraxx,  Bonez
+  Jkowall,  Maverick,  Freddy  Krueger  &  TRG,  Drink  or  Die,  PWA, RiSC
+  Hybrid,  Paradigm,  Class,   Atomic,   Devotion,  Siege,   and  of course
+  The  Punisher  and  the  rest  of  the  family  we  call  Razor 1911!
+
+  P.S- Extra special greets to the entire scene..YOU drive us to
+       perfection!!!
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                             Razor 1911 Members                             ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+  Aggro. August West. Bad Sector. Bandito. Beowulf. Blackened. BoneZ. Bunter
+     Cockroach. Colossus. Cypher. Cyraxx. EvilTEA. Hetero. Hooligan. ][cE
+  JK. Manhunter. Maverick. MYM. Ninja Spirit. Pharaoh. Pitbull. The Punisher
+  r0adkill.  Render. Rom Racer. Shadz. Sir Aragorn. Spoon. The Pep. Thirdson
+                     Toast. Vitas. Wish Bone. Wolverine
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                       Razor 1911 WORLD FAMOUS TRADERS                      ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+                         -*- Courier Co-ordinators -*-
+                             ~~~~~~~~~~~~~~~~~~~~~
+                              Pitbull & Rom Racer
+
+
+                            -*- Elite  Couriers -*-
+                                ~~~~~~~~~~~~~~~
+      Aredee.  Brain. Bug Lord. Dark Angel. Devan. Semaj. Simage. Slice
+                            Snake Eyes. Techno Rave
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                         How to Contact Razor 1911                          ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+ Via E-Mail    :     razorapp@razor1911.com
+ Via the WWW   : www.razor1911.com
+ Via Snail Mail:
+
+                                RAZOR 1911
+                                PO Box 907
+                                London
+                                SW11 6RL
+                                United Kingdom
+
+                         Don't wait!  Write us today!
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                            Razor 1911 Notes...                             ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+                   RAZOR 1911 - SHREDDING THE COMPETITION!
+
+                             -*- -*- -*- -*- -*-
+
+              SUPPORT THE COMPANIES THAT RELEASE QUALITY SOFTWARE!
+                If you liked this game, please buy the original.

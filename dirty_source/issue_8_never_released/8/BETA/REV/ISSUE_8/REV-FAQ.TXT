@@ -1,0 +1,70 @@
+------------------------------------------------------------------------------
+   F.A.Q. on running Relativity Emag under the Windows 95/98 MSDOS Prompt.
+------------------------------------------------------------------------------
+
+   WARNING: Please note that the smooth ansi scroller in the emag
+   does tend to freeze the emag on some computers (+bar also). If
+   you encounter this problem simply choose the ANSI scroller which
+   is the third scroller in F1 configuration from the main menu. By
+   choosing this type of scroller the emag will not freeze anymore.
+   Also, note the command line options by doing rev98-01 /?.
+
+*  Please read this F.A.Q. before reporting bugs about the emag!
+
+*  For stupid people who keep bugging me about "My MSDOS Prompt says
+   Relativity Emag, how can I change that?" just go edit your MSDOS
+   Prompt properties, click on 'Program' and change it. Also, there
+   is a new feature to change the status on the MSDOS Prompt so type
+   rev98-06 /? for help on this extra feature.
+
+** if you happen to have a soundblaster and its in the pc and not working
+   and the emag gets STUCK do this rev98-01 /v .. and dont bug us !!
+
+** if the articles gets STUCK its because of the asm routines, they dont 
+   seem to fit in any computer.. so just go in the f1 screen and change it 
+   to ANSI MODE !
+
+1. Highlight the MSDOS icon and press your right mouse button to open
+   the properties window.
+
+2. Click on the Program folder and make sure it says 'Maximized' where
+   it says Run:. Also make sure the Close on exit checkbox is on.
+
+3. Click the Advanced button under the Program folder and uncheck all
+   the check boxes and most importantly Prevent MS-DOS-based programs
+   from detecting Windows. This causes major problems! Our emag works
+   better if it detects that its running under Windows.
+
+4. Switch to the Font folder and make sure the button chosen is the one
+   that says 'Both font types' and for the Font size: choose 'Auto'.
+
+5. Click the Memory folder and make sure that all the pull-downs all
+   say 'Auto in them. Make sure Protected is unchecked and Uses HMA
+   is checked on. It is very important to disable Protected!
+
+6. Click the Screen folder and make sure the button chosen for Usage is
+   'Full-screen' and Initial size: is 'Default'. Check all the other
+   checkboxes you see so that they are on.
+
+7. Click the Misc folder and for Foreground uncheck Allow screen saver
+   because if your screen saver goes on it can cause problems. For Mouse
+   check QuickEdit on and uncheck Exclusive mode. For Background uncheck
+   Always suspend, for Termination uncheck Warn if still active. The
+   rest of the checkboxes can be turned on. Idle Sensitivity should be
+   still in the middle between Low and High.
+
+8. Click Apply to finish the settings and press OK. If it does not work
+   properly in Windows we suggest running it in pure DOS. All you need to
+   make sure of is that your sound drivers for DOS are installed and if you
+   use the CD-ROM make sure you have your CD-ROM driver installed for DOS. 
+
+|--------------------------------------------------------------------------|
+|               WARNING: PLEASE READ THE INFORMATION BELOW!                |
+|--------------------------------------------------------------------------|
+|                                                                          |
+|       It is important to note that this will save the settings for       |
+|       the current icon only. If you have more than one MSDOS icon,       |
+|         you have to edit the properties for those too if you are         |
+|          going to run the emag from those icons. Its important!          |
+|                                                                          |
+|--------------------------------------------------------------------------|

@@ -1,0 +1,16 @@
+Instructions to run the emag:
+
+1) Simply unzip the release with WinZip or pkunzip -d from your root.
+   ie: C:\ will unzip to C:\GRP\ISSUE_?
+
+2) To run the emag C:\GRP\ISSUE_? (whatever the dir is) and type the
+   following: revxx-xx.exe fxxx-xx.mdb emag.mdb
+
+3) You can do this for each emag using the Relativity Emag Viewer. It
+   will work for all emags currently involved in the project. See other
+   documentation for more information or contact MuadDib.
+
+* Notice : the exe is included since the engine is still in early stages, 
+  although no bugs, its not working like i want it to .. so if you see
+  a release with an exe inside that exe will work on that release only
+  but it will use the FX file, which will never change !

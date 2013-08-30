@@ -1,0 +1,44 @@
+
+                       [ Relativity (c)  Issue # 08 ]
+                    -===_____ ___  ===== _____=_____===-
+                    .:::\___ |_ \\____ __\___ | ___/:::.
+                   .::::://   _\  \\_ '  `_/  :  \\:::::.
+                    .:::/   _: __//  _:___//. `\   \:::.
+                     .://  |  \\__ .  __>___  /_\ . \:.
+                     _/   _\_    _\   .|  \\ .      \\_
+                     \_____/\____//.   :_. \\_________/
+                    -=========LZ\___________/97========-
+                               -=============-
+
+Instructions for Writers:
+
+1. Do not include the date the article was written if you don't want to.
+
+2. Submit every article in a text file with the .txt extension only.
+
+3. Use the first two digits of the filename as the first two digits of
+   your nickname on irc or if someone else's is similar use 1st/3rd or
+   something like that. For the remaining digits use it to call your
+   article something. If you have long filename support you can type
+   ren article.txt "nickname - title of my article.txt" between the
+   " " so that it preserves the long filename as it was written.
+
+4. For every line of text MAKE SURE it is only 76 CHARACTERS in length
+   horizontally across the screen in EDIT.COM. (also known as the 76th
+   RULE of relativity)
+
+5. Write your articles in paragraphs and do not bunch it all up into
+   one big gob of text. It will look ugly and tire readers.
+
+6. Include at the top of the article, your nickname and what section
+   in the emag that the article will appear in and don't forget the
+   name of the article otherwise we cannot process it.
+
+7. Before submitting check your spelling and grammar. If you must do
+   it the easy way use a spell checker but be certain it's right.
+
+8. If you feel that we need to add another SECTION to the emag please
+   let MuadDib know about it and he'll decide whether or not to add it.
+
+9. If you have any questions regarding these instructions report to
+   MuadDib on irc in #relativity or email him at muaddib@usa.net.

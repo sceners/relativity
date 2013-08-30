@@ -1,0 +1,49 @@
+Hello Relativity fans!
+
+Many of you know, or perhaps none of you do, that Linux is gearing up for
+going mainstream.  I'm on the bleeding edge (and have been for a while I
+now realize) of this movement. Anyone who has used Linux during the past
+few years knows that its "grown up" alot. Linux went from a pretty stable
+and reliable 1.3.x series to the excellent stability and awesomeness that
+I enjoy with the 2.0.x series of kernels. 
+
+Netscape is getting ready to take Linux mainstream with better support
+from its browsers, a new front-end for X, and improved product support.
+Netscape may team with RedHat to produce a commercially viable mainstream
+replacement for Windows.
+
+So what does all this mean to the scene? Well, right now, not alotta. In
+fact it may never effect the scene. If it does it'll be more along the
+lines of seeing more and more of our FTP SiteOps switching to Linux and
+even an emergence of WWW SiteOps because of Apache for Linux.
+
+Like I said I've been on the bleeding edge for quite some time and I've
+suffered my share of nicks and cuts. Right now I'm having a problem (not
+necesarrily Linux specific) compiling a kernel because GNUs objdump
+doesn't support --raw and --quiet quite right. So far I've never really
+been hacked off because of it and people have tried to hack my box. I
+haven't seen anyone get in and hope to never see anyone get in.
+
+If you want some pointers for jumping onto the bleeding edge as well heres
+a *short* list:
+
+1)  Don't get discouraged!
+2)  Go with a distro thats easy to install and easy to upgrade at least
+    for your first time. RedHat and Debian are pretty nice, I prefer
+    RedHat 4.2/5.0
+3)  Seek help if you need to. #LinuxOS is a great place on EFNet. 
+    http://www.linux.org/ if you like WWW stuff.
+    http://www.ssc.com/linux/ has alot of neato stuff.
+4)  To keep yourself on the bleeding edge (and your programs up-to-date)
+    go to http://www.freshmeat.net/ -- Lots of people there keep tabs on
+    darn near every software package there is for Linux including URLs for
+    D/L, and HomePages.
+5)  Shit happens. Things can, and sometimes do, go wrong. But just
+    think, at least when Linux crashes if you're a competent programmer
+    *YOU* can fix it!
+
+Peace all, I'm outta here. I'd love to hear yer feedback so if ya have
+any go ahead and fire it at my e-mail address!
+
+ZOP12
+zop12@mindless.com

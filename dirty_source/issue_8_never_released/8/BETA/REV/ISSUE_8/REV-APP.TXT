@@ -1,0 +1,264 @@
+                                            Ü
+                                          Ü   ßÜ
+                     Ü  ß  Ü           Ü²ß  Ü   ßÜ           Ü  ş   şÜ
+         Ü     Ü  ß         ŞÜ     Ü  ß  ÜÜÛÛÛÜ   ßÜ    Ü ß          Ş²ß ß
+        Ü²ÛÜß       ÜÜÛÛÜ   ß   ß   ÜÜÜ²ÛÛÛÛÛÛÛÛ    ß Üß    ÜÜş     Üß
+     ÜÜ²ßß    ÜÜÜ²ÛÛÛÛÛÛÛÛ    ÜÜÜÛ²ß   ßÛÛÛÛÛÛ²²İ      ÜÜÜÛÛß     ß      ÜÜş
+   ßß   ÜÜÜÛÜ    ßÛÛÛÛÛÛÛÛİ ÜÛÛÛÛÛİ     ŞÛÛÛ²²²ß ÜÜÛÛÛÛÛÛÛÛÛ        ÜÜÜÛÛß
+ ÜÜÜÛÛÛÛÛÛÛÛİ     ŞÛÛÛÛ²²ß ÜÛÛÛÛÛÛ     ÜÛ²²²²ß  ß²ÛÛÛÛÛÛÛÛÛİ ÜÜÜÛÛÛÛÛÛÛÛİ
+  ŞÛÛÛÛÛÛÛÛÛ  Ü  ÜÛÛ²²²ß ÜÛÛÛß°ßÛÛÜÜÜÜ²²²ßß     Ü ßÛÛÛÛÛÛÛ²   ŞÛÛÛÛÛÛÛÛÛ
+   ÛÛÛÛÛÛÛÛ²   ßÛÛÛßß    ÛÛÛÛÛÜÛÛ²          ÜÜÛÛÛ² ŞÛÛÛÛÛ²²    ÛÛÛÛÛÛÛÛ²
+   ŞÛÛÛÛÛÛ²²     ßÛÛ²ÜÜ   ßÛ²ÛÛÛ²²İ     ÜÜÛÛÛÛÛÛ²²İ ÛÛÛÛ²²²İ   ŞÛÛÛÛÛÛ²²
+    ÛÛÛÛÛ²²²İ      ÛÛÛÛÛ²ÜÜ ßÛ²²²²²Ü  ßßßÛÛÛÛ²²²²ß ßßÛÛ²²²²²    ÛÛÛÛ²²²²Ü
+   ŞÛÛÛ²²ßßß²Ü      ÛÛÛ²²²²ß  ÜÛßßß²Ü    ŞÛ²²²ßß        ßßß²²  ŞÛ²²²²²ßßßß
+  Ü²ßß    Ü   ßş    ŞÛ²²²ß   ß       ß²Üşßßß  Ü              ßÜ²ßß       Ü
+       ß ß²ß ß  ß²ß Ş²²ß  ß ß ßß²ßß cH!SAC ß ß²ß ß ßßß ßßß ß      ß ßß ßß²ß
+                    ²ß
+
+        úÄÅÄúÄÄÄÄÄÄÄÄÄÄÄÄÄ Relativity Application ÄÄÄÄÄÄÄÄÄÄÄÄÄÄúÄÅÄú
+             Ä³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³Ä
+            ³ ³ Important:                                    ³ ³
+            ³ ³                                               ³ ³
+            ³ ³ Please be sure to read each section carefully ³ ³
+            ³ ³ and notice the requirements. If you do not    ³ ³
+            ³ ³ feel you can handle the job move to another   ³ ³
+            ³ ³ job or simply don't apply. If you wish to be  ³ ³
+            ³ ³ a writer read the writer's section and also   ³ ³
+            ³ ³ the trial memberships / topic list you can    ³ ³
+            ³ ³ write about section. I don't want anyone to   ³ ³
+            ³ ³ ask me what to write about, read this file!   ³ ³
+            ³ ³                                               ³ ³
+            ³ ³ Warning:                                      ³ ³
+            ³ ³                                               ³ ³
+            ³ ³ Every member who joins Relativity on a trial  ³ ³
+            ³ ³ membership must submit their email address to ³ ³
+            ³ ³ MuadDib at muaddib@usa.net and En|{rypt at    ³ ³
+            ³ ³ napalm@mobsters.com for our private list of   ³ ³
+            ³ ³ members email addresses. This is to ensure    ³ ³
+            ³ ³ that we can keep in touch with you under any  ³ ³
+            ³ ³ circumstances. This is not an option! You     ³ ³
+            ³ ³ must give us your real email address(es).     ³ ³
+            ³ ³                                               ³ ³
+             Ä³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³Ä
+
+------------------------------------------------------------------------------
+3D GRAPHICAL ARTIST
+------------------------------------------------------------------------------
+A time consuming job if your into making 3D models and actually good at it.
+You must be using programs such as 3D Studio, 3D Studio Max., Bryce 2, or
+Lightwave 3D and not Truespace or Adobe Photoshop. You must be able to submit
+at least 1 pic per issue since we get so much art that its senseless to do 5
+pics or something for one issue. You'll just be wasting your time.
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+* The coordinator of this position is En|{rypt so email him at the following
+* email address: napalm@mobsters.com if your interested in this position.
+------------------------------------------------------------------------------
+
+==============================================================================
+
+------------------------------------------------------------------------------
+3D DEMO & SPRITE PROGRAMMING
+------------------------------------------------------------------------------
+You must be able to use languages such as ASM/C++/PASCAL to code useful demos
+that we can easily package with our emag. If you code in C++ we will not be
+able to insert the code into our EMAG and therefore it will be packed with the
+emag itself. If you code in ASM/PASCAL (not direct ASM, inline ASM in PASCAL),
+we can easily integrate it into the code for our emag. You will have credit
+for this and it will be shown in the emag. However, do not apply for this
+position if you think you'll get our emag code because we wont accept you.
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+* The coordinator of this position is MuadDib so email him at the following
+* email address: muaddib@usa.net if your interested in this position.
+------------------------------------------------------------------------------
+
+==============================================================================
+
+------------------------------------------------------------------------------
+ADOBE PHOTOSHOP ARTIST       
+------------------------------------------------------------------------------
+You must know how to use layers and the tools available in Adobe Photoshop 4.0
+as well as plugin sequences to make great looking pics. However, there are no
+positions open for this position at the moment so please DONT APPLY!
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+WARNING: WE DONT NEED ANYONE FOR THIS POSITION SO DONT APPLY, DONT EMAIL ME!
+------------------------------------------------------------------------------
+* The coordinator of this position is En|{rypt so email him at the following
+* email address: napalm@mobsters.com if your interested in this position.
+------------------------------------------------------------------------------
+
+==============================================================================
+
+------------------------------------------------------------------------------
+ANSI ARTIST                  
+------------------------------------------------------------------------------
+You must be really good at making ansi's and active in the ansi scene. No lame
+ansi's and you must be able to do a wide variety of tasks such as making menus
+or logos. You must submit the art needed for each issue of the emag. If you do
+not do your job we'll find another ansi artist. You may use your signature in 
+your ansi's just as the VGA artists do in their VGA images as long as they do
+not interfere with the ansi's look and as long as its not overly evident. You
+must be familiar with shading and be able to do more than just simple text.
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+* The coordinator of this position is MuadDib so email him at the following
+* email address: muaddib@usa.net if your interested in this position.
+------------------------------------------------------------------------------
+
+==============================================================================
+
+------------------------------------------------------------------------------
+CHANNEL BOTMASTER            
+------------------------------------------------------------------------------
+You must have access to T1 or higher shells and ensure that you are using the
+safest and most updated version of UNIX eggdrop. You must be able to configure
+the bot so it stays up 24/7 and does not have the following options set:
+
+* -bitch (no +bitch mode on the eggdrop, that's bad!)
+* no "please op me!" or "please invite me!" lines (annoying and causes klines)
+* share 1 and passive 1 and make sure the bots are linked and sharing properly
+* make sure the version reply is cloaked from ircops being suspicious so get
+  some bitchx clone or something and improve it or update the ctcp replies
+* all bots must link to 1 HUB bot, all leafs except for 1 bot, we do not want
+  any other HUB bots, you will be running a leaf so make sure these modes are
+  on your bot, +obsl and make sure that you dont have +h on the bot (NO HUB!)
+
+Finally, if your bot is not hardly up, you will be forced to take down your
+bots because its no use having bots that aren't updated and we lose ops for
+nothing just because of your bot that joined a split and we have no access.
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+* The coordinator of this position is En|{rypt so email him at the following
+* email address: napalm@mobsters.com if your interested in this position.
+------------------------------------------------------------------------------
+
+==============================================================================
+
+------------------------------------------------------------------------------
+FTP & IRC COURIERS (NOT BBS COURIERS SO DONT APPLY!)
+------------------------------------------------------------------------------
+You must have access to some of the top sites in the world that DO ACCEPT the
+emag on their site without nuking it (if your an FTP courier). You must be
+able to courier via FTP to our sites by gaining access to them directly from
+the siteops or co-siteops. IRC couriers must concentrate on putting 1-2 xdcc
+bots in #exceed #m8leech #warez950-dcc and any other BIG channels. The xdcc
+bots must also appear in #relativity and be VOICED (+v).
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+* The coordinator of this position is Sinister so email him at the following
+* email address: sinister@toledolink.com if your interested in this position.
+------------------------------------------------------------------------------
+
+==============================================================================
+
+------------------------------------------------------------------------------
+INTERVIEWERS & WRITERS 
+------------------------------------------------------------------------------
+You must submit at least 3 articles per issue. If you fail to do so you will
+be expulsed from the group so dont blame us or bitch as us because we kicked
+you out, you can still rejoin the group if you feel you can meet the future
+requirements of the group. The articles MUST be in .bin format using our own
+format made in ACiDDRAW by ACiD Productions and saved in .bin format (ansi).
+The filename is always revfrmt.bin and can be downloaded off the members login
+page on our website. If you must submit a .txt file of your article just make
+sure it is layed out in paragraphs and NO LINE EXCEEDS 70 characters! If you
+do not adhere to these requirements your article will be rejected. MuadDib is
+the active president and all submissions (aka: subs) go to him. Even people
+who are not members can submit! If you want to know what to write about read
+the list of topics in the last section of this text file. Please note that in
+1998 in the month of March we will be losing our best friend and my best bud
+on the net, MuadDib. He maybe gone for months or even years. When that happens
+I will be taking over the job of MuadDib. Please treat him nice while you can!
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+* The coordinator of this position is MuadDib so email him at the following
+* email address: muaddib@usa.net if your interested in this position.
+------------------------------------------------------------------------------
+
+==============================================================================
+
+------------------------------------------------------------------------------
+SITE HOST AND/OR WEBMASTER
+------------------------------------------------------------------------------
+If you can supply a domain for our group without any funds from any of our
+members (the group), that would be appreciated. You will be responsible for
+designing, uploading and keeping the website up-to-date. If you need any art
+at all done for the website please talk to our artists. If you have someone
+who would like to be a mirror site we can setup a mirror site list of all the
+people who are mirroring our website. However, they must all be the same! I
+dont want one site to be completely different from the other. They must be
+setup exactly the same way. You must also have experience with at least doing
+or setting up Frames, JavaScript, and Page Anchors (aka: Targets).
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+* The coordinator of this position is En|{rypt so email him at the following
+* email address: napalm@mobsters.com if your interested in this position.
+------------------------------------------------------------------------------
+
+==============================================================================
+
+------------------------------------------------------------------------------
+TRIAL MEMBERSHIPS / TOPIC LIST YOU CAN WRITE ABOUT
+------------------------------------------------------------------------------
+Trials last at least 2 weeks before a release or until the next release. If we
+feel you have proved yourself you will become a full member. Trials do get ops
+in our channel so please dont complain. Also, we have eggdrops and if you need
+to know how to use them speak to our botmasters. Read the NFO if you dont know
+who they are because if you dont we wont tell you who they are.
+
+Topics: Interviews, The Scene, Game Prereviews, The Miscellaneous Section,
+        The Hackers Section, The Music Scene, The Game Reviews, The Sci/Fi &
+        Fantasy + Literature, The Art Section, The Coding Section, The Secret
+        Articles, The Web Authoring Section, The Cracking Section or if you
+        feel another topic should be added speak to MuadDib about adding it!
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+* There is no coordinator for this position since this trial membership is
+* for any new member joining for any of the positions listed above.
+------------------------------------------------------------------------------
+
+        úÄÅÄúÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ How to Contact Us ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄúÄÅÄú
+             Ä³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³Ä
+            ³ ³                                               ³ ³
+            ³ ³ You can reach us on IRC at our efnet channel  ³ ³
+            ³ ³ #relativity, or you can go to our web page at ³ ³
+            ³ ³ http://www.cyberbeach.net/~jester/relativity/ ³ ³
+            ³ ³ This page is being updated whenever a release ³ ³
+            ³ ³ comes out so check it out and be sure to get  ³ ³
+            ³ ³ the latest NFO file. You can email us leaders ³ ³
+            ³ ³ at the following email addresses:             ³ ³
+            ³ ³                                               ³ ³
+            ³ ³ We need a public ftp site to offer our emag   ³ ³
+            ³ ³ from our webpage. Please let us know if you   ³ ³
+            ³ ³ can provide such a site. It must be T1 or     ³ ³
+            ³ ³ higher with at least 100MB quota for future   ³ ³
+            ³ ³ releases. Speak to En|{rypt only about this!  ³ ³
+            ³ ³                                               ³ ³
+            ³ ³ En|{rypt - napalm@mobsters.com                ³ ³
+            ³ ³ MuadDib  - muaddib@usa.net                    ³ ³
+            ³ ³                                               ³ ³
+            ³ ³ Our domains are down, do not use rev.com or   ³ ³
+            ³ ³ relativity.org. If you can host a reliable    ³ ³
+            ³ ³ domain for us free of charge on your own      ³ ³
+            ³ ³ server, let us know about it. All we need it  ³ ³
+            ³ ³ for is to post our webpage and upload the     ³ ³
+            ³ ³ issues for download off the webpage.          ³ ³
+            ³ ³                                               ³ ³
+            ³ ³ Remember, without your help we wouldn't be    ³ ³
+            ³ ³ here today. More and more people are being    ³ ³
+            ³ ³ aware of our emag and contributing. We thank  ³ ³
+            ³ ³ everyone for their contirbutions.             ³ ³
+            ³ ³                                               ³ ³
+            ³ ³                                    - En|{rypt ³ ³
+            ³ ³                                               ³ ³
+             Ä³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³Ä
+
+==============================================================================
+
+* OUR GROUP IS NOT DEAD SO DONT BELIEVE WHAT YOU HEAR, TALK TO US DIRECTLY!! *
+
+xxxx If you have any questions email me (En|{rypt) at napalm@mobsters.com xxxx
+
+==============================================================================

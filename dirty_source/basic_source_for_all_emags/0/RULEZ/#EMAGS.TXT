@@ -1,0 +1,19 @@
+Recently, all groups involved with releasing their emags using the Relativity
+Viewer, have formed a universal channel on efnet. Everyone involved from every
+emag will be aiding the creation of a primary channel, a primary ftp site, and
+a primary website to distribute releases from all emags. This project is being
+built from scratch and we need everyone from every emag who is involved to
+join #emags and help us out. It would be very beneficial to everyone since
+ideas can be coordinated from group to group and issues can be released much
+quicker than usual. This involves submitting, beta testing and finally the
+release (99% bugless) for every emag. The Relativity Emag Viewer is supported
+throughout a variety of platforms. Such platforms and requirements include:
+
+- 486DX/33MHZ OR BETTER
+- 8MB RAM OR HIGHER (EMS/XMS ENABLED)
+- VESA 32BIT OR 64BIT PCI VIDEO CARD (SVGA)
+- 8BIT SOUND CARD OR BETTER
+- OPERATING SYSTEMS INCLUDE DOS, LINUX W/DOSEMU, WINDOWS OSR1/OSR2/OSR3
+
+If you would like to contribute to this project contact MuadDib on irc in the
+channels #emags #relativity on efnet or by email at muaddib@usa.net.

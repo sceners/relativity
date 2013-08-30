@@ -1,0 +1,919 @@
+Session Start: Sun Nov 16 00:55:42 1997
+*** Now talking in #coding
+  .-------------------------------------------------------.
+  | MuadDIb     | @RevDupe    | @En|{rypt   |             |
+  '-------------'-------------'-------------'-------------'
+(µ) [o: 2][v: 0][n: 1][t: 3][m: +stn]
+#coding created on Sun Nov 16 00:45:11
+*** Joins: RevS3kSi (1064@home.zeon.net)
+*** En|{rypt sets mode: +o RevS3kSi
+(µ) NOTIFY: biXen (Sphere@ti18a95-0214.dialup.online.no) is on IRC (unknown host).
+*** RevDupe sets mode: +o MuadDIb
+*** Joins: RevCuTiE (supremeb@209.62.72.68)
+*** En|{rypt sets mode: +o RevCuTiE
+*** En|{rypt changes topic to "Welcome to the new coding channel made by MuadDib and En|{rypt!"
+*** En|{rypt sets mode: -s
+* En|{rypt is away since Sat Nov 15 18:03:13 1997, "eating" .-[napalm@mobsters.com]-.
+*** Joins: RevLooNiE (supremeb@athena.shellmaster.com)
+*** MuadDIb sets mode: +o RevLooNiE
+<En|{rypt> i'm back
+* En|{rypt is back on Sat Nov 15 18:15:50 1997, "from eating" .-[napalm@mobsters.com]-.
+*** Quits: RevLooNiE (EOF From client)
+*** Joins: osiris- (hingis@203.40.82.28)
+*** Joins: Supreme_B (supremeb@203.40.82.42)
+<RevS3kSi> [Supreme_B] Dont drink & drive home when you can smoke dope eat soap & fly home in a bubble.
+<RevCuTiE> [Supreme_B] Dont drink & drive home when you can smoke dope eat soap & fly home in a bubble.
+*** Parts: osiris- (hingis@203.40.82.28)
+*** RevCuTiE sets mode: +o Supreme_B
+<RevDupe> [Supreme_B] Dont drink & drive home when you can smoke dope eat soap & fly home in a bubble.
+*** RevDupe sets mode: +o Supreme_B
+<MuadDIb> mine mine mine mine
+*** Joins: tiberius (~me@ct7-57.qtm.net)
+*** Parts: tiberius (~me@ct7-57.qtm.net)
+*** En|{rypt changes topic to "Currently working on a home page... watch the topic for updates..."
+<En|{rypt> i gotta find an image that has lightning
+<Supreme_B> o shut up
+<En|{rypt> so i can somehow<En|{rypt> .+chan #coding
+<En|{rypt> [17:48] <revdupe> What?  You need '.help'
+<En|{rypt> woop
+<En|{rypt> like an anim or something
+<En|{rypt> animated lightning
+[Supreme_B:supremeb@203.40.82.42] thats why u have to chat it and remove all the bots passwords
+<En|{rypt> so i can just copy/paste it
+<En|{rypt> and do stuff to it in photoshop so i can piece together an image
+<En|{rypt> i'd like to know how scorpion ever made that cool lightning on that image a long time ago
+<Supreme_B> i'm not that much of a photoshop expert :)
+*** Joins: [darkS] (darks@1-283.dialup.inconnect.com)
+<MuadDIb> need help ?
+<En|{rypt> hey darks
+*** MuadDIb sets mode: +v [darkS]
+[possom:~stu7707@westga.edu] OH YEAH! these are lines not pixels... thanks.
+<En|{rypt> yeah i need help muad
+<[darkS]> uhh.. NO!
+<[darkS]> ;)
+<En|{rypt> find me that lightning animation
+*** Joins: tek_hed (tek_hed@pm2159.ncfweb.net)
+<MuadDIb> what nimation
+*** Quits: tek_hed (Broken pipe)
+<[darkS]> lots of bots in here
+<En|{rypt> or a big picture with lightning or something just lightning nothing else
+<MuadDIb> wait
+<MuadDIb> let me checl
+*** Joins: pea (~root@208.25.112.32)
+<En|{rypt> then i can morph it a bit in photoshop and put a sphere and stuff
+<En|{rypt> yeah [darks]
+<En|{rypt> ;)
+<[darkS]> hehe can I kline one?
+<[darkS]> ;)
+<pea> wait, do i have aids?
+*** Parts: pea (~root@208.25.112.32)
+*** Joins: RevLooNiE (supremeb@ppp7.vinet.com)
+*** MuadDIb sets mode: +o RevLooNiE
+<Supreme_B> no cause i wouldn't like it :)
+<En|{rypt> wait i have an idea...
+<[darkS]> oh comeon let me kline one! :)
+<En|{rypt> i'll color some lines first, plugins on it to make it look like lightning
+<En|{rypt> and then put a sphere on top
+<Supreme_B> nah
+<[darkS]> pretty pleaSE!
+<[darkS]> i have to test my skills.. ;)
+(µ) profiler has left IRC.
+[Xtravagan:d96nicli@gilmer.dtek.chalmers.se] i'm noit used to do irc via unix ...
+<[darkS]> whats this channel about?
+<En|{rypt> coding but we just started it
+(µ) supreme_b has left IRC.
+*** Quits: Supreme_B (Read error: 54 (Connection reset by peer))
+<MuadDIb> Coding ..
+<MuadDIb> whatelse
+<En|{rypt> its muad's channel
+<En|{rypt> i'm gonna make a home page
+<[darkS]> #coders is wheres its at!
+<MuadDIb> well
+<MuadDIb> coders is opless
+*** Joins: Supreme_B (supremeb@203.40.82.42)
+<RevS3kSi> [Supreme_B] Dont drink & drive home when you can smoke dope eat soap & fly home in a bubble.
+<RevDupe> [Supreme_B] Dont drink & drive home when you can smoke dope eat soap & fly home in a bubble.
+(µ) NOTIFY: Supreme_B (supremeb@203.40.82.42) is on IRC (unknown host).
+<RevCuTiE> [Supreme_B] Dont drink & drive home when you can smoke dope eat soap & fly home in a bubble.
+<MuadDIb> if u want .. go
+<Supreme_B> good ol me had to press the wrong button
+<MuadDIb> i give help here
+<[darkS]> hah
+<MuadDIb> we all do
+*** RevCuTiE sets mode: +o Supreme_B
+<Supreme_B> give mean oral ?
+<[darkS]> well don't i get some +o?
+<MuadDIb> u can get +v 
+<MuadDIb> if u want
+<[darkS]> I like +o better..
+*** Joins: Mass-- (mass@cgowave-9-04.cgocable.net)
+<MuadDIb> no
+<MuadDIb> dont trust u
+<[darkS]> why not?
+<RevLooNiE> [Supreme_B] Dont drink & drive home when you can smoke dope eat soap & fly home in a bubble.
+<MuadDIb> .. bcz i dont
+[Supreme_B:supremeb@203.40.82.42] we are doing the webpage in different languages
+<[darkS]> thats not nice..
+[Supreme_B:supremeb@203.40.82.42] yes
+<Mass--> can anyone help me? i need to convert a btrieve database to ms-access ... anyone know how I can do this easily?
+<[darkS]> I have none you a long time...
+<MuadDIb> hmm
+<[darkS]> err known
+[Supreme_B:supremeb@203.40.82.42] we are meant to be an emag for the whole world
+<MuadDIb> i think u need to find the format of those databases
+[Supreme_B:supremeb@203.40.82.42] so why not have a webpage they can read in their language
+<[darkS]> I belive you where in #pursuit with me... and few other groups
+<En|{rypt> i have a way to make lightning, just have to draw it nice and use two plugins
+<En|{rypt> i know darks
+<En|{rypt> i trust him
+[Supreme_B:supremeb@203.40.82.42] i can try japanese and indonesian if i can remember enough
+<[darkS]> #relativity +#coding @#gamehints #mp3country @#monkeyisland @#elpaso @#Christmas @#ttol @#lusers #gawd @#SunCity @#base @####rox#### @#mirage @#cca @#elmo @#rhapsody @#laymuhrs #releases #icons_of_vanity @#coders @#Pascal @#antivirus
+<En|{rypt> he's op in #coders/#laymuhrs/#pascal
+<[darkS]> hehe everyone trust me...
+<Mass--> MuadDIb: there is about 9 .DAT files that are definately in btrieve... i need to find a program that can read the headers of these files... if I could find the index I might be able to do something with this...
+[Supreme_B:supremeb@203.40.82.42] rayf00 might be able to do malaysian if he has time
+<MuadDIb> mm
+<MuadDIb> u can ask the makers of the programs through email
+<MuadDIb> ppl do help u know
+<Mass--> muadib: heh.. i don't think they would like that, because i'm trying to make a program better than the one they have... but I guess I could say that I just wanted to put the data into access.. hmmmm..
+<MuadDIb> mm
+<Supreme_B> ohh that might be a problem :)
+<MuadDIb> so what
+<MuadDIb> tell them u'll sell it to them 
+<MuadDIb> or make it a freeware
+<Supreme_B> hahaha
+<MuadDIb> or just givei t to them
+<Mass--> yeah i will make it freeware, and put them out of business.. :)
+<MuadDIb> hehe
+<Mass--> bah! i called, but they are closed.. hehe..
+<MuadDIb> i really dont knowwhere to get the format from..
+<MuadDIb> i asked a company for a music from one of their games
+<MuadDIb> if they had it
+<MuadDIb> they woould have said yes
+-Supreme_B- [WallOP:#relativity] can anyone in here read and write any languages other than english ?
+-> [WallOP:#coding] are u askijng the bots .. brian can do it in french
+<Mass--> hmm..
+-Supreme_B- [WallOP:#relativity] no i'm not asking the bots
+*** MuadDIb sets mode: +v Mass--
+-Supreme_B- [WallOP:#relativity] no i'm not
+*** Quits: RevLooNiE (Ping timeout: 241 seconds)
+*** Joins: possom (~stu7707@westga.edu)
+<possom> ahhh. i see... 
+*** Quits: possom (thanks muad'dib)
+*** Parts: [darkS] (darks@1-283.dialup.inconnect.com)
+* Supreme_B is away, gone to have a late breakfast [log:ON] [email:supremeb@atheist.com]
+*** Parts: Mass-- (mass@cgowave-9-04.cgocable.net)
+(µ) SEND request by MoZ(moz0813@173-4-153.ipt.aol.com) [boxes.tpu:4.704k]
+(µ) SEND request by MoZ(moz0813@173-4-153.ipt.aol.com) [crt2.tpu:6.096k]
+(µ) SEND request by MoZ(moz0813@173-4-153.ipt.aol.com) [databox.tpu:10.736k]
+(µ) SEND request by MoZ(moz0813@173-4-153.ipt.aol.com) [keydefs.tpu:2.992k]
+[MoZ:moz0813@173-4-153.ipt.aol.com] crt2 is used by Databox.tpu
+*** Joins: Morbid` (Goatlord@technetium.washington.xtn.net)
+*** Parts: Morbid` (Goatlord@technetium.washington.xtn.net)
+<Supreme_B> .
+*** Joins: [darkS] (darks@1-283.dialup.inconnect.com)
+* Supreme_B has returned. (gone 9m41s)
+[MoZ:moz0813@173-4-153.ipt.aol.com] yeah...
+<Supreme_B> fuck i need someone who can do shockwave
+*** Joins: RevLooNiE (supremeb@ppp7.vinet.com)
+*** Joins: danman2 (daman@ip252.portland4.or.pub-ip.psi.net)
+<MuadDIb> well
+[MoZ:moz0813@173-4-153.ipt.aol.com] WriteXYC is a routine I wrote myself, it uses Write() and GotoXY() and TextColor()
+*** Supreme_B sets mode: +o RevLooNiE
+*** Retrieving #coding channel info...
+[MoZ:moz0813@173-4-153.ipt.aol.com] But it does this:
+*** MuadDIb changes topic to "Currently working on a home page... watch the topic for updates.../ ask away .. we are her"
+*** MuadDIb sets mode: +v danman2
+*** Retrieving #coding channel info...
+*** Quits: [darkS] (Ping timeout)
+*** MuadDIb changes topic to "Currently working on a home page...Muaddib.home.ml.org / ask away .. we are her"
+[En|{rypt:~napalm@ppp5-222.sudbury.cyberbeach.net] we need better categories
+[danman2:daman@ip252.portland4.or.pub-ip.psi.net] actually i do :)
+[En|{rypt:~napalm@ppp5-222.sudbury.cyberbeach.net] u kept saying stuff like utils
+[MoZ:moz0813@173-4-153.ipt.aol.com] why's it keep doing that?
+*** Quits: RevS3kSi (Read error: 0 (Error 0))
+<Supreme_B> great
+<MuadDIb> nick
+<MuadDIb> can u brind more bots
+*** Joins: [darkS] (darks@1-26.dialup.inconnect.com)
+<Supreme_B> get me some shells and i can
+<Supreme_B> until then no
+[danman2:daman@ip252.portland4.or.pub-ip.psi.net] um...step step
+*** Quits: RevLooNiE (Ping timeout: 180 seconds)
+[danman2:daman@ip252.portland4.or.pub-ip.psi.net] well ive been using blit to move it
+<Supreme_B> does anyone know of anyone who can do shockwave animation ?
+* Supreme_B is away, bbl [log:ON] [email:supremeb@atheist.com]
+*** Quits: Supreme_B (Read error: 54 (Connection reset by peer))
+*** Quits: [darkS] (Ping timeout)
+*** Joins: RevLooNiE (supremeb@ppp7.vinet.com)
+*** En|{rypt sets mode: +o RevLooNiE
+(µ) profiler has left IRC.
+*** Quits: RevLooNiE (Ping timeout)
+*** Joins: galaga (bhanley@ppp18.parrett.net)
+*** MuadDIb sets mode: +v galaga
+*** Joins: RevLooNiE (supremeb@athena.shellmaster.com)
+Session Close: Sun Nov 16 02:55:11 1997
+
+Session Start: Sun Nov 16 12:10:30 1997
+*** Now talking in #coding
+#coding topic is Currently working on a home page...Muaddib.home.ml.org / ask away .. we are her
+  .-------------------------------------------------------.
+  | Topic: Currently working on a home page...Muaddib.hom |
+  |        e.ml.org / ask away .. we are her              |
+  | SetBy: MuadDIb    Sun Nov 16 02:15:59 1997            |
+  '-------------------------------------------------------'
+#coding topic set by MuadDIb on Sun Nov 16 02:15:59
+  .-------------------------------------------------------.
+  | MuadDIb     | RevLooNiE   | @RevDupe    |             |
+  '-------------'-------------'-------------'-------------'
+(µ) [o: 1][v: 0][n: 2][t: 3][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+*** RevDupe sets mode: +o MuadDIb
+*** RevDupe sets mode: +o MuadDIb
+*** MuadDIb sets mode: +o RevLooNiE
+*** Joins: RevS3kSi (supremeb@home.zeon.net)
+*** MuadDIb sets mode: +oo RevLooNiE RevS3kSi
+*** Joins: RevCuTiE (supremeb@209.62.72.68)
+*** MuadDIb sets mode: +o RevCuTiE
+*** Parts: RevCuTiE (supremeb@209.62.72.68)
+*** Joins: RevCuTiE (supremeb@209.62.72.68)
+*** MuadDIb sets mode: +o RevCuTiE
+*** Parts: RevS3kSi (supremeb@home.zeon.net)
+*** Joins: RevS3kSi (supremeb@home.zeon.net)
+*** MuadDIb sets mode: +o RevS3kSi
+*** Parts: RevDupe (sinister@shell.toledolink.com)
+*** Joins: RevDupe (sinister@shell.toledolink.com)
+*** MuadDIb sets mode: +o RevDupe
+*** Parts: RevLooNiE (supremeb@athena.shellmaster.com)
+*** Joins: RevLooNiE (supremeb@athena.shellmaster.com)
+*** MuadDIb sets mode: +o RevLooNiE
+*** Joins: Supreme_B (supremeb@203.40.82.42)
+*** RevLooNiE sets mode: +o Supreme_B
+*** Retrieving #coding channel info...
+*** MuadDIb changes topic to " Muaddib.home.ml.org... everything u wanted to know about .. coding"
+<MuadDIb> !dupe tmt
+*** MuadDIb is now known as Muad
+*** Muad is now known as MuadDib
+<MuadDib> !dupe lala
+*** Quits: Supreme_B (ta ta)
+Session Close: Sun Nov 16 13:12:37 1997
+
+Session Start: Sun Nov 16 23:16:09 1997
+*** Now talking in #coding
+#coding topic is http://www.cyberbeach.net/~jester/coding/ is the beta of the home page!
+  .-------------------------------------------------------.
+  | Topic: http://www.cyberbeach.net/~jester/coding/ is t |
+  |        he beta of the home page!                      |
+  | SetBy: En|{rypt   Sun Nov 16 23:02:10 1997            |
+  '-------------------------------------------------------'
+#coding topic set by En|{rypt on Sun Nov 16 23:02:10
+  .-------------------------------------------------------.
+  | MuadBid     | CoBBNObLR   | +^2ooMHz^   | @En|{rypt   |
+  | @RevDupe    | @RevLooNiE  | @RevS3kSi   | @RevCuTiE   |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: muaddib (dcassin@inferno.cshore.com) is on IRC (unknown host).
+(µ) NOTIFY: Chromatiq (chrome@apollon.datashopper.dk) is on IRC (unknown host).
+(µ) NOTIFY: Defjam (unknown@ts004d13.van-cn.concentric.net) is on IRC (unknown host).
+(µ) NOTIFY: En|{rypt (~napalm@ppp6-105.sudbury.cyberbeach.net) is on IRC (unknown host).
+(µ) NOTIFY: Sinister (mworthy@hopkins.ez-net.com) is on IRC (unknown host).
+(µ) NOTIFY: SirMagik (yearbook@shellx.toledolink.com) is on IRC (unknown host).
+(µ) NOTIFY: ^DuCtMaN^ (phear@hol-ppp218.triton.net) is on IRC (unknown host).
+(µ) NOTIFY: ^STAR^ (whereever@Aratus07.dcsi.net) is on IRC (unknown host).
+(µ) [o: 5][v: 1][n: 2][t: 8][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+*** Joins: Sinisterr (sinister@eliteness.toledolink.com)
+*** RevDupe sets mode: +o Sinisterr
+*** En|{rypt sets mode: +o MuadBid
+*** En|{rypt sets mode: +v CoBBNObLR
+*** En|{rypt sets mode: +oo CoBBNObLR ^2ooMHz^
+*** Quits: Sinisterr (brb..)
+*** Quits: CoBBNObLR (Ping timeout)
+*** Joins: CoBBNObLR (d@digital36.pm3-1.bitstorm.net)
+*** CoBBNObLR is now known as [SkaPunk]
+*** Quits: [SkaPunk] (Ping timeout: 240 seconds)
+*** Joins: death_inc (RaptoRazer@ppp1454.on.bellglobal.com)
+*** Parts: death_inc (RaptoRazer@ppp1454.on.bellglobal.com)
+*** Joins: DarkGawd (rewt@ppp-044.kingston-01.ican.net)
+<DarkGawd> whoa, 2oo
+<DarkGawd> ^2ooMHz^, LONG time no see
+*** MuadBid sets mode: +v DarkGawd
+<DarkGawd> thanks
+* En|{rypt is away since Sun Nov 16 17:18:20 1997, "watching t.v." .-[napalm@mobsters.com]-.
+<^2ooMHz^> yeah]\
+* ^2ooMHz^ is now marked away :: tv :: [.ph.] 17:20:32 [email: ] [log: pager: on ]
+* DarkGawd is away, food [lp]
+*** Joins: death_inc (RaptoRazer@ppp1454.on.bellglobal.com)
+<death_inc> can anyone tell me where to get tasm
+<MuadBid> yea
+<death_inc> where
+<MuadBid> i found tasm 5 in #oldwarez a couple of weeks ago
+<MuadBid> just ask around
+<death_inc> k
+*** Parts: death_inc (RaptoRazer@ppp1454.on.bellglobal.com)
+*** Joins: death_inc (RaptoRazer@ppp1454.on.bellglobal.com)
+<death_inc> hmm.
+<death_inc> no one is answering
+<En|{rypt> yeah its pretty hard to find tasm 5 these days
+<death_inc> do u have it? :)
+<En|{rypt> no
+<En|{rypt> i got tasm 4
+<death_inc> shit man..i  need it....does it make a difference? all i need is tasm, i dont care what version
+<MuadBid> yea ok
+<En|{rypt> well the only difference between 4 and 5 is
+<MuadBid> just check coding.base.org
+<En|{rypt> with 5 u can do win95 apps
+<MuadBid> brian send it to him after
+<death_inc> i dont need to do win95
+<death_inc> :)
+<En|{rypt> who does :)
+<death_inc> how big is it?
+<death_inc> oh
+<death_inc> duh
+<En|{rypt> not big, if u get the FULL version its 3 disks
+<death_inc> hmm
+<death_inc> thanks alot, you saved me so much trouble
+<En|{rypt> but these are the only files u need, included are the example files
+<En|{rypt> np
+<En|{rypt> just remember #coding :)
+<En|{rypt> this is a new channel
+<En|{rypt> it will become popular with time
+<death_inc> really, its new? 
+<death_inc> what do you code in? i use C++
+<MuadBid> say
+<En|{rypt> yeah the channel is new
+<En|{rypt> i code in pascal/asm/c/c++
+<En|{rypt> not as much c/c++, i'm still learning
+<En|{rypt> i use it when i have to basically
+<En|{rypt> yet another bug in intel chips
+<En|{rypt> Intel announces fix of new Pentium flaw
+<En|{rypt> SANTA CLARA, Calif. (Reuters) - Intel Corp announced Friday it released software to fix a potentially serious flaw with its Pentium and Pentium MMX computer chips. 
+<En|{rypt> Earlier this week, Intel discovered a design error that would allow a malicious programmer to freeze the operations of a personal computer or network server. Because of a potential security threat, the flaw raised concerns among some customers. 
+*** En|{rypt changes topic to "my.yahoo.com - get the desktop ticker, it's news right to your desktop!"
+<En|{rypt> i'll be eating, bb after i'm done
+*** Joins: Ricoh (fist@DPC17.110.SW-Building.uh.edu)
+*** Parts: Ricoh (fist@DPC17.110.SW-Building.uh.edu)
+*** MuadBid sets mode: +v death_inc
+* ^2ooMHz^ is now back :: :: [.ph.] 17:41:29
+* ^2ooMHz^ is now back :: :: [.ph.] 17:42:01
+* DarkGawd is back, hi [gone!20m21s]
+<death_inc> lates..i'll come on another time...ttyl
+*** Parts: death_inc (RaptoRazer@ppp1454.on.bellglobal.com)
+[^2ooMHz^:b@tcipm7-13.totcon.com] cool
+[^2ooMHz^:b@tcipm7-13.totcon.com] thanks
+* ^2ooMHz^ is now back :: :: [.ph.] 17:56:12
+*** Quits: DarkGawd (in x now)
+*** Joins: DarkGawd (rewt@206.248.82.44)
+[Venture:vent@stlrpx01-port-13.agt.net] thanks
+*** Joins: Ricoh (fist@DPC17.110.SW-Building.uh.edu)
+*** Parts: Ricoh (fist@DPC17.110.SW-Building.uh.edu)
+* MuadBid is away, i am sick of kali [log:OFF] [email:muaddib@usa.net]
+<MuadBid> say
+Session Close: Mon Nov 17 01:38:30 1997
+
+Session Start: Mon Nov 17 13:48:33 1997
+*** Now talking in #coding
+#coding topic is my.yahoo.com - get the desktop ticker, it's news right to your desktop!
+  .-------------------------------------------------------.
+  | Topic: my.yahoo.com - get the desktop ticker, it's ne |
+  |        ws right to your desktop!                      |
+  | SetBy: En|{rypt   Mon Nov 17 00:36:04 1997            |
+  '-------------------------------------------------------'
+#coding topic set by En|{rypt on Mon Nov 17 00:36:04
+  .-------------------------------------------------------.
+  | MuadDib     | @RevLooNiE  | DarkGawd    | @RevDupe    |
+  | @RevS3kSi   |             |             |             |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: MuadDib (Dib@slip139-92-91-106.tel.il.ibm.net) is on IRC (unknown host).
+(µ) NOTIFY: Chromatiq (chrome@apollon.datashopper.dk) is on IRC (unknown host).
+(µ) NOTIFY: Defjam (unknown@ts001d01.van-cn.concentric.net) is on IRC (unknown host).
+(µ) NOTIFY: Jonno (~moy@eagle27.ois.net.au) is on IRC (unknown host).
+(µ) NOTIFY: Sinister (mworthy@hopkins.ez-net.com) is on IRC (unknown host).
+(µ) NOTIFY: Supreme_B (supremeb@203.40.82.24) is on IRC (unknown host).
+(µ) [o: 3][v: 0][n: 2][t: 5][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+*** Quits: DarkGawd (BitchX-74 -- just do it.)
+Session Close: Mon Nov 17 14:04:12 1997
+
+Session Start: Mon Nov 17 14:08:56 1997
+*** Now talking in #coding
+#coding topic is my.yahoo.com - get the desktop ticker, it's news right to your desktop!
+  .-------------------------------------------------------.
+  | Topic: my.yahoo.com - get the desktop ticker, it's ne |
+  |        ws right to your desktop!                      |
+  | SetBy: En|{rypt   Mon Nov 17 00:37:36 1997            |
+  '-------------------------------------------------------'
+#coding topic set by En|{rypt on Mon Nov 17 00:37:36
+  .-------------------------------------------------------.
+  | MuadBid     | MuadDib     | @RevLooNiE  | @RevDupe    |
+  | @RevS3kSi   |             |             |             |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: MuadDib (Dib@slip139-92-91-106.tel.il.ibm.net) is on IRC (unknown host).
+(µ) NOTIFY: Chromatiq (chrome@apollon.datashopper.dk) is on IRC (unknown host).
+(µ) NOTIFY: Defjam (unknown@ts001d01.van-cn.concentric.net) is on IRC (unknown host).
+(µ) NOTIFY: Sinister (mworthy@hopkins.ez-net.com) is on IRC (unknown host).
+(µ) NOTIFY: Supreme_B (supremeb@203.40.82.24) is on IRC (unknown host).
+(µ) [o: 3][v: 0][n: 2][t: 5][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+*** Quits: MuadDib (Ping timeout)
+*** MuadBid is now known as MuadDib
+Session Close: Mon Nov 17 14:37:14 1997
+
+Session Start: Mon Nov 17 21:50:44 1997
+*** Now talking in #coding
+#coding topic is my.yahoo.com - get the desktop ticker, it's news right to your desktop!
+  .-------------------------------------------------------.
+  | Topic: my.yahoo.com - get the desktop ticker, it's ne |
+  |        ws right to your desktop!                      |
+  | SetBy: En|{rypt   Mon Nov 17 00:37:36 1997            |
+  '-------------------------------------------------------'
+#coding topic set by En|{rypt on Mon Nov 17 00:37:36
+  .-------------------------------------------------------.
+  | MuadDib     | RevCuTiE    | @RevDupe    | @RevS3kSi   |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: MuadDib (Dib@slip139-92-89-145.tel.il.ibm.net) is on IRC (unknown host).
+*** Joins: Mr_SHiat (Shiat@pm2-21.cpuinc.net)
+*** Parts: Mr_SHiat (Shiat@pm2-21.cpuinc.net)
+(µ) [o: 2][v: 0][n: 2][t: 4][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+*** RevS3kSi sets mode: +o MuadDib
+*** MuadDib sets mode: +o RevCuTiE
+*** RevS3kSi sets mode: +o MuadDib
+*** Retrieving #coding channel info...
+*** MuadDib changes topic to "New Channel .. new Concepts !!"
+* MuadDib is away, bbl [log:OFF] [email:muaddib@usa.net]
+(µ) You have been marked as being away.
+(µ) bixen has left IRC.
+(µ) NOTIFY: En|{rypt (~napalm@ppp6-4.sudbury.cyberbeach.net) is on IRC (unknown host).
+*** Joins: En|{rypt (~napalm@ppp6-4.sudbury.cyberbeach.net)
+*** RevDupe sets mode: +o En|{rypt
+*** Joins: |Smasher| (smasher@bursley-216-56.reshall.umich.edu)
+*** Parts: |Smasher| (smasher@bursley-216-56.reshall.umich.edu)
+*** Quits: En|{rypt (Connection reset by peer)
+* MuadDib is away, doom2 [log:OFF] [email:muaddib@usa.net]
+Session Close: Mon Nov 17 23:41:39 1997
+
+Session Start: Mon Nov 17 23:43:21 1997
+*** Now talking in #coding
+#coding topic is New Channel .. new Concepts !!
+  .-------------------------------------------------------.
+  | Topic: New Channel .. new Concepts !!                 |
+  | SetBy: MuadDib    Mon Nov 17 22:19:06 1997            |
+  '-------------------------------------------------------'
+#coding topic set by MuadDib on Mon Nov 17 22:19:06
+  .-------------------------------------------------------.
+  | MuadDib     | @RevCuTiE   | @RevDupe    | @RevS3kSi   |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: MuadDib (Dib@slip139-92-89-145.tel.il.ibm.net) is on IRC (unknown host).
+(µ) NOTIFY: BrikZ (~brikz@ppp018.cape.cove.com) is on IRC (unknown host).
+(µ) NOTIFY: Chromatiq (chrome@apollon.datashopper.dk) is on IRC (unknown host).
+-> Server: privmsg revdupe :DCC CHAT chat 2338085265 4501
+(µ) NOTIFY: ^STAR^ (whereever@Aratus29.dcsi.net) is on IRC (unknown host).
+(µ) [o: 3][v: 0][n: 1][t: 4][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+-> Server: privmsg muaddib :DCC CHAT chat 2338085265 4501
+* MuadDib is away, bbl [log:OFF] [email:muaddib@usa.net]
+*** Joins: KB8UKP (~me@ts3-4.qtm.net)
+*** Parts: KB8UKP (~me@ts3-4.qtm.net)
+Session Close: Tue Nov 18 00:05:51 1997
+
+Session Start: Tue Nov 18 00:08:07 1997
+*** Now talking in #coding
+#coding topic is New Channel .. new Concepts !!
+  .-------------------------------------------------------.
+  | Topic: New Channel .. new Concepts !!                 |
+  | SetBy: MuadDib    Mon Nov 17 22:19:06 1997            |
+  '-------------------------------------------------------'
+#coding topic set by MuadDib on Mon Nov 17 22:19:06
+  .-------------------------------------------------------.
+  | MuadBid     | @RevCuTiE   | @RevDupe    | @RevS3kSi   |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: $null () is on IRC (unknown host).
+(µ) NOTIFY: Chromatiq (chrome@apollon.datashopper.dk) is on IRC (unknown host).
+(µ) NOTIFY: DeCEiVeR (~irule@slip-32-100-54-106.la.us.ibm.net) is on IRC (unknown host).
+(µ) NOTIFY: Defjam (unknown@ts005d20.van-cn.concentric.net) is on IRC (unknown host).
+(µ) NOTIFY: Sinister (mworthy@hopkins.ez-net.com) is on IRC (unknown host).
+(µ) NOTIFY: ^STAR^ (whereever@Aratus29.dcsi.net) is on IRC (unknown host).
+(µ) muaddib has left IRC.
+(µ) [o: 3][v: 0][n: 1][t: 4][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+Session Close: Tue Nov 18 00:16:04 1997
+
+Session Start: Tue Nov 18 14:41:57 1997
+*** Now talking in #coding
+  .-------------------------------------------------------.
+  | MuadDib     | RevCuTiE    | Rev-CuTiE   | @RevDupe    |
+  | @RevS3kSi   |             |             |             |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: MuadDib (Dib@slip139-92-89-173.tel.il.ibm.net) is on IRC (unknown host).
+(µ) NOTIFY: Chromatiq (chrome@apollon.datashopper.dk) is on IRC (unknown host).
+(µ) NOTIFY: DeCEiVeR (irule@slip166-72-187-103.la.us.ibm.net) is on IRC (unknown host).
+(µ) NOTIFY: Defjam (unknown@ts006d08.van-cn.concentric.net) is on IRC (unknown host).
+(µ) NOTIFY: Sinister (mworthy@hopkins.ez-net.com) is on IRC (unknown host).
+(µ) NOTIFY: ^DuCtMaN^ (phear@207.142.109.232) is on IRC (unknown host).
+(µ) [o: 2][v: 0][n: 3][t: 5][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+(µ) NOTIFY: HOSON (hoson@193.12.94.28) is on IRC (unknown host).
+*** Quits: RevCuTiE (Ping timeout)
+*** Rev-CuTiE is now known as RevCuTiE
+Session Close: Tue Nov 18 14:47:20 1997
+
+Session Start: Tue Nov 18 14:47:41 1997
+*** Now talking in #coding
+  .-------------------------------------------------------.
+  | MuadBid     | RevCuTiE    | @RevDupe    | @RevS3kSi   |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: $null () is on IRC (unknown host).
+(µ) NOTIFY: BrikZ (~brikz@ppp018.cape.cove.com) is on IRC (unknown host).
+(µ) NOTIFY: $null () is on IRC (unknown host).
+*** Quits: RevDupe (irc-e.primenet.com irc-w.primenet.com)
+*** Quits: RevCuTiE (irc-e.primenet.com irc-w.primenet.com)
+Session Close: Tue Nov 18 14:47:59 1997
+
+Session Start: Tue Nov 18 14:48:44 1997
+*** Now talking in #coding
+#coding topic is New Channel .. new Concepts !!
+  .-------------------------------------------------------.
+  | Topic: New Channel .. new Concepts !!                 |
+  | SetBy: MuadDib    Mon Nov 17 22:17:34 1997            |
+  '-------------------------------------------------------'
+#coding topic set by MuadDib on Mon Nov 17 22:17:34
+  .-------------------------------------------------------.
+  | MuadDib     | RevCuTiE    | @RevDupe    |             |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: MuadDib (Dib@slip139-92-89-173.tel.il.ibm.net) is on IRC (unknown host).
+(µ) NOTIFY: Chromatiq (chrome@apollon.datashopper.dk) is on IRC (unknown host).
+(µ) NOTIFY: DeCEiVeR (irule@slip166-72-187-103.la.us.ibm.net) is on IRC (unknown host).
+(µ) NOTIFY: Defjam (unknown@ts006d08.van-cn.concentric.net) is on IRC (unknown host).
+(µ) NOTIFY: HOSON (HOSON@t1o63p408.telia.com) is on IRC (unknown host).
+(µ) NOTIFY: Sinister (mworthy@hopkins.ez-net.com) is on IRC (unknown host).
+(µ) NOTIFY: ^DuCtMaN^ (phear@207.142.109.232) is on IRC (unknown host).
+(µ) [o: 1][v: 0][n: 2][t: 3][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+*** Joins: |trax| (trax@van-wa1-11.ix.netcom.com)
+*** Parts: |trax| (trax@van-wa1-11.ix.netcom.com)
+Session Close: Tue Nov 18 14:55:52 1997
+
+Session Start: Tue Nov 18 15:54:54 1997
+*** Now talking in #coding
+#coding topic is New Channel .. new Concepts !!
+(µ) Join synched in 1.984 seconds.
+  .-------------------------------------------------------.
+  | Topic: New Channel .. new Concepts !!                 |
+  | SetBy: MuadDib    Mon Nov 17 22:17:34 1997            |
+#coding topic set by MuadDib on Mon Nov 17 22:17:34
+  .-------------------------------------------------------.
+  | MuadDib     | @RevS3kSi   | RevCuTiE    | @RevDupe    |
+  '-------------'-------------'-------------'-------------'
+(µ) [o: 2][v: 0][n: 2][t: 4][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+*** RevS3kSi sets mode: +o MuadDib
+*** Joins: Duncan_ID (mdrolo@gtrinfo8.pu-pm.univ-fcomte.fr)
+<MuadDib> yo
+<MuadDib> need help ?
+*** Retrieving #coding channel info...
+*** MuadDib sets mode: +o RevCuTiE
+(µ) The time is now 4:00pm.
+*** MuadDib changes topic to "Our Goal is to HELP YOU !!"
+*** Retrieving #coding channel info...
+*** Parts: Duncan_ID (mdrolo@gtrinfo8.pu-pm.univ-fcomte.fr)
+*** Retrieving #coding channel info...
+(µ) The time is now 4:30pm.
+(µ) pHreaKie has left IRC.
+Session Close: Tue Nov 18 16:36:11 1997
+
+Session Start: Tue Nov 18 22:07:36 1997
+*** Now talking in #coding
+#coding topic is Our Goal is to HELP YOU !!
+  .-------------------------------------------------------.
+  | Topic: Our Goal is to HELP YOU !!                     |
+  | SetBy: MuadDib    Tue Nov 18 16:20:47 1997            |
+  '-------------------------------------------------------'
+#coding topic set by MuadDib on Tue Nov 18 16:20:47
+  .-------------------------------------------------------.
+  | MuadDib     | @En|{rypt   | @RevS3kSi   | @RevCuTiE   |
+  | @RevDupe    |             |             |             |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: MuadDib (Dib@slip139-92-91-141.tel.il.ibm.net) is on IRC (unknown host).
+(µ) NOTIFY: Chromatiq (chrome@apollon.datashopper.dk) is on IRC (unknown host).
+(µ) NOTIFY: debby (cu33946@konichiwa.cc.columbia.edu) is on IRC (unknown host).
+(µ) NOTIFY: DeCEiVeR (irule@166.72.12.113) is on IRC (unknown host).
+(µ) NOTIFY: Defjam (unknown@ts006d08.van-cn.concentric.net) is on IRC (unknown host).
+(µ) NOTIFY: En|{rypt (~napalm@ppp6-246.sudbury.cyberbeach.net) is on IRC (unknown host).
+(µ) NOTIFY: Sinister (mworthy@hopkins.ez-net.com) is on IRC (unknown host).
+(µ) NOTIFY: Valacar (valacar@pool020-max3.cypress-ca-us.dialup.earthlink.net) is on IRC (unknown host).
+(µ) NOTIFY: ^DuCtMaN^ (phear@207.142.109.232) is on IRC (unknown host).
+(µ) [o: 4][v: 0][n: 1][t: 5][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+*** RevDupe sets mode: +o MuadDib
+.who of RevDupe ----------------------------------------
+(µ) profiler has left IRC.
+*** Retrieving #coding channel info...
+(µ) en|{rypt has left IRC.
+*** Quits: En|{rypt (Ping timeout)
+*** MuadDib changes topic to "Our Goal is to HELP YOU !! coding.base.org"
+*** Retrieving #coding channel info...
+*** MuadDib changes topic to "Our Goal is to HELP YOU !! Sources and Data needed for coding.base.org"
+*** Joins: En|{rypt (~napalm@ppp6-246.sudbury.cyberbeach.net)
+*** RevDupe sets mode: +o En|{rypt
+*** Quits: En|{rypt (using .-[wicked!demise]-. v1.0 beta for lamers)
+*** Retrieving #coding channel info...
+(µ) NOTIFY: biXen (Sphere@ti18a95-0250.dialup.online.no) is on IRC (unknown host).
+(µ) SEND request by ^STAR^(whereever@207.48.94.163) [travel_move.cur:2.238k]
+(µ) SEND request by MuadDib(Dib@slip139-92-91-141.tel.il.ibm.net) [autoexec.bat:240b]
+*** Joins: LateRiser (Late.Riser@isdn35.extern.uni-duesseldorf.de)
+<LateRiser> hi
+<MuadDib> this is my channel
+<MuadDib> u can work ur group from here
+<LateRiser> yes ...
+<LateRiser> thanx ...
+<MuadDib> i will be for now the Host..
+<MuadDib> but thats all
+<LateRiser> you don't wanna code with/for us ?
+<MuadDib> i will code. when i c some productions
+<MuadDib> as i said. i have experience with new groups
+[T3WaX:~napalm@ppp6-44.sudbury.cyberbeach.net] fuck
+[T3WaX:~napalm@ppp6-44.sudbury.cyberbeach.net] damn fucken isp
+[T3WaX:~napalm@ppp6-44.sudbury.cyberbeach.net] disconnected me!!!!
+<LateRiser> i could give you a pre-beta of our first "demo" (its a helloween demo, its late)
+<MuadDib> k
+<LateRiser> and not the best at all :)
+<LateRiser> should i dcc ?
+<LateRiser> but there is no sound (we have no idea how to do that :( )
+<MuadDib> asm c or pas
+<MuadDib> i can do sound
+<MuadDib> piece of shit cake
+(µ) en|{rypt has left IRC.
+<LateRiser> we code Pascal/Asm and C
+<LateRiser> But we nee Watcom C (the Coder do need it)
+*** Retrieving #coding channel info...
+<MuadDib> no need
+<MuadDib> he can do it in 
+* MuadDib is away, dont even think of talking to me !! [log:OFF] [email:muaddib@usa.net]
+<LateRiser> Whats that ?
+Session Close: Tue Nov 18 23:05:49 1997
+
+Session Start: Tue Nov 18 23:09:56 1997
+*** Now talking in #coding
+#coding topic is Our Goal is to HELP YOU !! Sources and Data needed for coding.base.org
+  .-------------------------------------------------------.
+  | Topic: Our Goal is to HELP YOU !! Sources and Data ne |
+  |        eded for coding.base.org                       |
+  | SetBy: MuadDib    Tue Nov 18 22:14:12 1997            |
+  '-------------------------------------------------------'
+#coding topic set by MuadDib on Tue Nov 18 22:14:12
+  .-------------------------------------------------------.
+  | MuadDib     | LateRiser   | @RevS3kSi   | @RevCuTiE   |
+  | @RevDupe    |             |             |             |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: MuadDib (Dib@slip139-92-91-151.tel.il.ibm.net) is on IRC (unknown host).
+(µ) NOTIFY: Chromatiq (chrome@apollon.datashopper.dk) is on IRC (unknown host).
+(µ) NOTIFY: DeCEiVeR (irule@166.72.12.113) is on IRC (unknown host).
+(µ) NOTIFY: En|{rypt (~napalm@ppp6-44.sudbury.cyberbeach.net) is on IRC (unknown host).
+(µ) NOTIFY: Sinister (sinister@hopkins.ez-net.com) is on IRC (unknown host).
+(µ) NOTIFY: Valacar (valacar@pool020-max3.cypress-ca-us.dialup.earthlink.net) is on IRC (unknown host).
+(µ) NOTIFY: ^DuCtMaN^ (phear@207.142.109.232) is on IRC (unknown host).
+(µ) NOTIFY: ^STAR^ (whereever@gridley-d17.manznet.com) is on IRC (unknown host).
+(µ) [o: 3][v: 0][n: 2][t: 5][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+<LateRiser> hi
+<MuadDib> hi
+<LateRiser> should i resend the file ?
+<MuadDib> yea
+(µ) SEND request by LateRiser(Late.Riser@isdn35.extern.uni-duesseldorf.de) [nd_hw.zip:221.38k]
+<LateRiser> here we go :=
+<LateRiser> :)
+<LateRiser> (don't expect too much :))
+<LateRiser> Where are you from ?
+<MuadDib> israel
+(µ) 4306167 bytes sent to En|{rypt in 4860.2 secs (0.88kb/s)
+(µ) SEND request by En|{rypt(~napalm@ppp6-44.sudbury.cyberbeach.net) [read.txt:1.75k]
+<LateRiser> cool ... i am from germany ...
+<LateRiser> `the demo is fully written in Pascal ... (No C compiler) :(
+[Supreme_B:supremeb@203.40.82.17] well their the ones i know of
+(µ) 221380 bytes received from LateRiser in 662.8 secs (0.33kb/s)
+* MuadDib is away, dont even think of talking to me now.. bb in 30 mins [log:OFF] [email:muaddib@usa.net]
+<LateRiser> Hey MuadDib >> have to go ... email me please: LATE.RISER@GISMO.GUN.DE
+<MuadDib> ok
+<LateRiser> what do you think ?
+<MuadDib> its nice
+<LateRiser> any critic ? :)
+<MuadDib> yea
+<MuadDib> slow.. file too big
+<LateRiser> help us as coder ? :))
+<MuadDib> well .. yea
+<MuadDib> anyway
+<MuadDib> just go if u need
+<LateRiser> i thought you will be back in 30 minutes ... and don't wanna wait :)
+<LateRiser> Could you show me some of your work ?
+<MuadDib> muaddib.usa.net
+<MuadDib> oooops
+<MuadDib> muaddib.home.ml.org
+Session Close: Tue Nov 18 23:32:32 1997
+
+Session Start: Tue Nov 18 23:36:37 1997
+*** Now talking in #coding
+#coding topic is Our Goal is to HELP YOU !! Sources and Data needed for coding.base.org
+  .-------------------------------------------------------.
+  | Topic: Our Goal is to HELP YOU !! Sources and Data ne |
+  |        eded for coding.base.org                       |
+  | SetBy: MuadDib    Tue Nov 18 22:14:12 1997            |
+  '-------------------------------------------------------'
+#coding topic set by MuadDib on Tue Nov 18 22:14:12
+  .-------------------------------------------------------.
+  | Dib         | LateRiser   | @RevS3kSi   | @RevCuTiE   |
+  | @RevDupe    |             |             |             |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: Chromatiq (chrome@apollon.datashopper.dk) is on IRC (unknown host).
+(µ) NOTIFY: DeCEiVeR (irule@166.72.12.113) is on IRC (unknown host).
+(µ) NOTIFY: En|{rypt (~napalm@ppp6-44.sudbury.cyberbeach.net) is on IRC (unknown host).
+(µ) NOTIFY: H^arog (~Harog@ppp3.globes.co.il) is on IRC (unknown host).
+(µ) NOTIFY: jonno (hack@cadweeks.ppp.gu.edu.au) is on IRC (unknown host).
+(µ) NOTIFY: Sinister (sinister@hopkins.ez-net.com) is on IRC (unknown host).
+(µ) NOTIFY: Supreme_B (supremeb@203.40.82.17) is on IRC (unknown host).
+(µ) NOTIFY: Valacar (valacar@pool020-max3.cypress-ca-us.dialup.earthlink.net) is on IRC (unknown host).
+(µ) NOTIFY: ^STAR^ (whereever@gridley-d17.manznet.com) is on IRC (unknown host).
+(µ) [o: 3][v: 0][n: 2][t: 5][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+<LateRiser> hi
+<Dib> hi
+<LateRiser> are you a coder ? (demo/intro)
+<Dib> yea
+<LateRiser> are you muaddib ? :)
+<Dib> yea
+<LateRiser> grummel ;)
+<LateRiser> why have you changed your name ?
+<Dib> i like it
+<LateRiser> doesn't matter, what do you think ! We mean it very seriuosly.
+<Dib> just bcz
+<Dib> ok
+<Dib> i will do my part
+<LateRiser> bcz ?
+<LateRiser> Should i add you to the memberlist ?
+<Dib> yea
+<Dib> did u check my site ?
+<LateRiser> i have watched but not very good .. because i have a lame computer for internet so i hjave to check the site if MIRC is down
+<Dib> shit
+<Dib> well i code an emag
+<Dib> magazine
+<Dib> #relativity
+<LateRiser> relativity was the Topic of the page ;)
+<LateRiser> did you notice my Email adress ?
+<Dib> i logged it
+<Dib> and mine is muaddib@usa.net
+<LateRiser> check >> Http://www.leibniz.aka.de/new_deal
+<LateRiser> is a temp site of us ...
+<LateRiser> and the memberlist isn't correctly anymore
+*** Joins: fSOL (RaptoRazer@ppp1478.on.bellglobal.com)
+<LateRiser> ok logged
+<LateRiser> maybe you know some graficians :)
+*** Parts: fSOL (RaptoRazer@ppp1478.on.bellglobal.com)
+<LateRiser> ok .. i have to go now ... we email us ... ok ?
+<Dib> ok sure
+<LateRiser> bye
+*** Parts: LateRiser (Late.Riser@isdn35.extern.uni-duesseldorf.de)
+Session Close: Wed Nov 19 00:13:57 1997
+
+Session Start: Wed Nov 19 10:58:37 1997
+*** Now talking in #coding
+#coding topic is Our Goal is to HELP YOU !! Sources and Data needed for coding.base.org
+  .-------------------------------------------------------.
+  | Topic: Our Goal is to HELP YOU !! Sources and Data ne |
+  |        eded for coding.base.org                       |
+  | SetBy: MuadDib    Tue Nov 18 22:14:12 1997            |
+  '-------------------------------------------------------'
+#coding topic set by MuadDib on Tue Nov 18 22:14:12
+  .-------------------------------------------------------.
+  | Dib         | RevS3kSi    | @RevDupe    |             |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: Chromatiq (chrome@apollon.datashopper.dk) is on IRC (unknown host).
+(µ) NOTIFY: DeCEiVeR (~irule@slip-32-100-54-104.la.us.ibm.net) is on IRC (unknown host).
+(µ) NOTIFY: Defjam (unknown@ts003d07.van-cn.concentric.net) is on IRC (unknown host).
+(µ) NOTIFY: HOSON (hoson@193.12.94.28) is on IRC (unknown host).
+(µ) NOTIFY: jonno (hack@cadweeks.ppp.gu.edu.au) is on IRC (unknown host).
+(µ) NOTIFY: Sinister (sinister@hopkins.ez-net.com) is on IRC (unknown host).
+(µ) NOTIFY: Supreme_B (supremeb@203.40.82.22) is on IRC (unknown host).
+(µ) [o: 1][v: 0][n: 2][t: 3][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+*** Quits: RevS3kSi (Ping timeout)
+(µ) NOTIFY: ALi- (Brass_Monk@sp-a02-pool-35.tmns.net.au) is on IRC (unknown host).
+* Dib is away, bbl [log:OFF] [email:muaddib@usa.net]
+*** Joins: RevS3kSi (supremeb@home.zeon.net)
+Session Close: Wed Nov 19 11:40:49 1997
+
+Session Start: Wed Nov 19 20:25:51 1997
+*** Now talking in #coding
+#coding topic is Our Goal is to HELP YOU !! Sources and Data needed for coding.base.org
+  .-------------------------------------------------------.
+  | Topic: Our Goal is to HELP YOU !! Sources and Data ne |
+  |        eded for coding.base.org                       |
+  | SetBy: MuadDib    Tue Nov 18 22:14:12 1997            |
+  '-------------------------------------------------------'
+#coding topic set by MuadDib on Tue Nov 18 22:14:12
+  .-------------------------------------------------------.
+  | MuadBid     | @RevDupe    |             |             |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: Biskitboy (looser@ppp030.cape.cove.com) is on IRC (unknown host).
+(µ) NOTIFY: Chromatiq (chrome@apollon.datashopper.dk) is on IRC (unknown host).
+(µ) NOTIFY: DeCEiVeR (irule@slip-32-100-54-86.la.us.ibm.net) is on IRC (unknown host).
+(µ) NOTIFY: Sinister (sinister@hopkins.ez-net.com) is on IRC (unknown host).
+(µ) [o: 1][v: 0][n: 1][t: 2][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+Session Close: Wed Nov 19 20:29:38 1997
+
+Session Start: Wed Nov 19 22:25:16 1997
+*** Now talking in #coding
+-> [msg(#israel)] do u know if x files is today ??
+#coding topic is Our Goal is to HELP YOU !! Sources and Data needed for coding.base.org
+  .-------------------------------------------------------.
+  | Topic: Our Goal is to HELP YOU !! Sources and Data ne |
+  |        eded for coding.base.org                       |
+  | SetBy: MuadDib    Tue Nov 18 22:15:45 1997            |
+  '-------------------------------------------------------'
+#coding topic set by MuadDib on Tue Nov 18 22:15:45
+Session Close: Wed Nov 19 22:30:01 1997
+
+Session Start: Thu Nov 20 00:24:02 1997
+*** Now talking in #coding
+#coding topic is Our Goal is to HELP YOU !! Sources and Data needed for coding.base.org
+  .-------------------------------------------------------.
+  | Topic: Our Goal is to HELP YOU !! Sources and Data ne |
+  |        eded for coding.base.org                       |
+  | SetBy: MuadDib    Tue Nov 18 22:15:45 1997            |
+  '-------------------------------------------------------'
+#coding topic set by MuadDib on Tue Nov 18 22:15:45
+  .-------------------------------------------------------.
+  | Dib         | @RevDupe    |             |             |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: Chromatiq (chrome@apollon.datashopper.dk) is on IRC (unknown host).
+(µ) NOTIFY: DeCEiVeR (irule@slip-32-100-54-86.la.us.ibm.net) is on IRC (unknown host).
+(µ) NOTIFY: Defjam (unknown@ts001d06.van-cn.concentric.net) is on IRC (unknown host).
+(µ) NOTIFY: Sinister (mworthy@hopkins.ez-net.com) is on IRC (unknown host).
+(µ) NOTIFY: Sonofsam (Spanky@max9-85.HiWAAY.net) is on IRC (unknown host).
+(µ) [o: 1][v: 0][n: 1][t: 2][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+*** Joins: KB8UKP (~me@ct7-47.qtm.net)
+*** Parts: KB8UKP (~me@ct7-47.qtm.net)
+* Dib is away, bbl [log:OFF] [email:muaddib@usa.net]
+Session Close: Thu Nov 20 00:46:04 1997
+
+Session Start: Thu Nov 20 00:47:46 1997
+*** Now talking in #coding
+#coding topic is Our Goal is to HELP YOU !! Sources and Data needed for coding.base.org
+  .-------------------------------------------------------.
+  | Topic: Our Goal is to HELP YOU !! Sources and Data ne |
+  |        eded for coding.base.org                       |
+  | SetBy: MuadDib    Tue Nov 18 22:15:45 1997            |
+  '-------------------------------------------------------'
+#coding topic set by MuadDib on Tue Nov 18 22:15:45
+  .-------------------------------------------------------.
+  | Dib         | @RevDupe    |             |             |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: Chromatiq (chrome@apollon.datashopper.dk) is on IRC (unknown host).
+(µ) NOTIFY: DeCEiVeR (irule@slip-32-100-54-86.la.us.ibm.net) is on IRC (unknown host).
+(µ) NOTIFY: Defjam (unknown@ts001d06.van-cn.concentric.net) is on IRC (unknown host).
+(µ) NOTIFY: Sinister (mworthy@hopkins.ez-net.com) is on IRC (unknown host).
+(µ) NOTIFY: Sirmagik (sirmagik@shellx.toledolink.com) is on IRC (unknown host).
+(µ) NOTIFY: Sonofsam (Spanky@max9-85.HiWAAY.net) is on IRC (unknown host).
+(µ) NOTIFY: Supreme_B (supremeb@203.40.82.4) is on IRC (unknown host).
+(µ) NOTIFY: Valacar (valacar@pool028-max3.cypress-ca-us.dialup.earthlink.net) is on IRC (unknown host).
+(µ) [o: 1][v: 0][n: 1][t: 2][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+*** RevDupe sets mode: +o Dib
+Session Close: Thu Nov 20 01:11:40 1997
+
+Session Start: Thu Nov 20 16:00:00 1997
+*** Now talking in #coding
+#coding topic is Programming Languages - Visit http://www.cyberbeach.net/~jester/coding/
+  .-------------------------------------------------------.
+  | Topic: Programming Languages - Visit http://www.cyber |
+  |        beach.net/~jester/coding/                      |
+  | SetBy: En|{rypt   Thu Nov 20 02:25:07 1997            |
+  '-------------------------------------------------------'
+#coding topic set by En|{rypt on Thu Nov 20 02:25:07
+  .-------------------------------------------------------.
+  | Dib         | @RevDupe    |             |             |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: Chromatiq (chrome@apollon.datashopper.dk) is on IRC (unknown host).
+(µ) NOTIFY: DeCEiVeR (irule@slip166-72-11-80.sc.us.ibm.net) is on IRC (unknown host).
+(µ) NOTIFY: Defjam (unknown@ts006d20.van-cn.concentric.net) is on IRC (unknown host).
+(µ) NOTIFY: Sinister (mworthy@hopkins.ez-net.com) is on IRC (unknown host).
+(µ) The time is now 4:00pm.
+(µ) [o: 1][v: 0][n: 1][t: 2][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+Session Close: Thu Nov 20 16:04:20 1997
+
+Session Start: Thu Nov 20 22:02:27 1997
+*** Now talking in #coding
+  .-------------------------------------------------------.
+  | Dib         | @RevDupe    |             |             |
+  '-------------'-------------'-------------'-------------'
+(µ) NOTIFY: Chromatiq (chrome@apollon.datashopper.dk) is on IRC (unknown host).
+(µ) NOTIFY: Debby (~ladydy7@poste8.ladydy.qc.ca) is on IRC (unknown host).
+(µ) NOTIFY: DeCEiVeR (~irule@slip166-72-130-124.ga.us.ibm.net) is on IRC (unknown host).
+(µ) NOTIFY: Defjam (unknown@ts006d20.van-cn.concentric.net) is on IRC (unknown host).
+(µ) NOTIFY: Sinister (mworthy@hopkins.ez-net.com) is on IRC (unknown host).
+(µ) NOTIFY: SonOfSam (ssmith@cisco4-218.cas.golden.net) is on IRC (unknown host).
+(µ) [o: 1][v: 0][n: 1][t: 2][m: +tn]
+#coding created on Sun Nov 16 00:45:11
+Session Close: Thu Nov 20 22:12:19 1997
+

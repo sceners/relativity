@@ -1,0 +1,214 @@
+(****************************************************************************)
+(*                                                                          *)
+(* REVMEM.PAS - The Relativity E-Mag (coded in Turbo Pascal 7.0)            *)
+(*                                                                          *)
+(* "The Relativity E-Mag" was originally written by En|{rypt, |MuadDib|,    *)
+(* and IllumiTIE (for assembly routines). This source may not be copied,    *)
+(* distributed or modified in any shape or form. Some of the code has been  *)
+(* derived from various sources and units to help us produce a better       *)
+(* quality electronic magazine to let the scene know we're boss.            *)
+(*                                                                          *)
+(* Program Notes : This program presents "The Relativity E-Mag"             *)
+(*                                                                          *)
+(* ASM/TP70 Coder : xxxxx xxxxxxxxx (En|{rypt)  - xxxxxx@xxxxxxxxxx.xxx     *)
+(* ------------------------------------------------------------------------ *)
+(* TP70 Coder     : xxxxx xxxxxxxxx (|MuadDib|) - xxxxxx@xxxxxxxxxx.xxx     *)
+(* ------------------------------------------------------------------------ *)
+(*  MEMORY UNIT USED WITH REV97.PAS AND ABOVE. CODED IN TURBO PASCAL 7.0.   *)
+(****************************************************************************)
+
+
+{컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴}
+(****************************************************************************)
+(* Compiler Directives - These Directives Are Not Meant To Be Modified.     *)
+(****************************************************************************)
+
+{$A+}{$B+}{$D+}{$F+}{$G+}{$I+}{$K+}{$L+}{$N+}{$O-}{$P+}{$Q-}{$R-}{$S+}{$T+}
+{$V-}{$W+}{$X+}{$Y+}
+{$C MOVEABLE PRELOAD DISCARDABLE}
+{$D The Relativity Emag (in Turbo Pascal 7.0)}
+
+
+{컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴}
+(****************************************************************************)
+(* Reserved Words - Library Divides The Main Program Into Related Modules.  *)
+(****************************************************************************)
+
+unit RevMem;
+
+
+{컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴}
+(****************************************************************************)
+(* Reserved Words - What Is Visible And Accessible To Any Program Or Unit.  *)
+(****************************************************************************)
+
+interface
+
+
+{컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴}
+(****************************************************************************)
+(* Reserved Words - Each Identifier Names A Unit Used By This Single Unit.  *)
+(****************************************************************************)
+
+uses Dos;
+
+
+{컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴}
+(****************************************************************************)
+(* Reserved Words - Specifies An Identifier That Denotes A Type. (values)   *)
+(****************************************************************************)
+
+TYPE
+  MCBrec = record
+    location   : Char;
+    ProcessID  : WORD;
+    allocation : WORD;
+    reserved   : array[1..11] of BYTE;
+  end;
+
+  PSPrec = record
+    int20h,
+    EndofMem        : WORD;
+    Reserved1       : BYTE;
+    Dosdispatcher   : array[1..5] of BYTE;
+    Int22h          : Pointer;
+    Int23h          : Pointer;
+    INT24h          : Pointer;
+    ParentPSP       : WORD;
+    HandleTable     : array[1..20] of BYTE;
+    EnvSeg          : WORD;
+    Reserved2       : Longint;
+    HandleTableSize : WORD;
+    HandleTableAddr : Pointer;
+    Reserved3       : array[1..23] of BYTE;
+    Int21           : WORD;
+    RetFar          : BYTE;
+    Reserved4       : array[1..9] of BYTE;
+    DefFCB1         : array[1..36] of BYTE;
+    DefFCB2         : array[1..20] of BYTE;
+    Cmdlength       : BYTE;
+    Cmdline         : array[1..127] of BYTE;
+  end;
+
+
+{컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴}
+(****************************************************************************)
+(* Reserved Words - Associates And Stores An Identifier And Type In Memory. *)
+(****************************************************************************)
+
+var
+  pmcb   : ^MCBrec;
+  emcb   : ^MCBrec;
+  psp    : ^PSPrec;
+  dmem   : Longint;
+  HaveXms,HaveEms : Boolean;
+  Reg: Registers;
+
+function GetMainMemory : Longint;
+procedure CheckMainMemory;
+procedure CheckXMSMemory(var installed : boolean);
+procedure CheckEMSMemory(var installed : boolean);
+procedure CheckXMSEMSMemory;
+procedure ShrinkHeapMemory;
+procedure ExpandHeapMemory;
+procedure FlushDiskCaches;
+
+
+{컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴}
+(****************************************************************************)
+(* Reserved Words - Procedures And Functions Declared In The Interface.     *)
+(****************************************************************************)
+
+implementation
+
+
+{컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴}
+(****************************************************************************)
+(* Reserved Words - Detects The Amount Of Main Memory Available. (640K)     *)
+(****************************************************************************)
+
+function GetMainMemory : Longint;
+begin
+  psp:=PTR(PrefixSeg,0);
+  pmcb:=Ptr(PrefixSeg-1,0);
+  emcb:=Ptr(psp^.envseg-1,0);
+  GetMainMemory:=Longint(pmcb^.allocation+emcb^.allocation+1)*16;
+end;
+
+procedure CheckMainMemory;
+begin
+  Writeln('Memory Used: ',GetMainMemory,' bytes');
+end;
+
+
+{컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴}
+(****************************************************************************)
+(* Reserved Words - Detects If Expanded And Extended Memory Are Available.  *)
+(****************************************************************************)
+
+procedure CheckXMSMemory(var installed : boolean);
+begin
+  reg.ax := $4300;
+  intr($2F, reg);
+  installed := reg.al = $80;
+end;
+
+procedure CheckEMSMemory(var installed : boolean);
+begin
+  reg.ah := $46;
+  intr($67, reg);
+  installed := reg.ah = $00;
+end;
+
+procedure CheckXMSEMSMemory;
+begin
+  CheckXMSMemory(HaveXms);
+  CheckEMSMemory(HaveEms);
+  writeln('XMS: ',HaveXms,'  EMS: ',HaveEms,'');
+end;
+
+
+{컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴}
+(****************************************************************************)
+(* Reserved Words - Gives A Larger Heap Size Temporarily Until heap_expand. *)
+(****************************************************************************)
+
+procedure ShrinkHeapMemory;
+begin
+  reg.bx := memw[seg(heapptr) : ofs(heapptr) + 2] - prefixseg;
+  reg.es := prefixseg;
+  reg.ah := $4a;
+  msdos(reg);
+end;
+
+procedure ExpandHeapMemory;
+begin
+  reg.bx := memw[seg(heapend) : ofs(heapend) + 2] - prefixseg;
+  reg.es := prefixseg;
+  reg.ah := $4a;
+  msdos(reg);
+end;
+
+
+{컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴}
+(****************************************************************************)
+(* Reserved Words - Flushes Disk Caches SmartDrive 4.00+ and PC-Cache 8.0+. *)
+(****************************************************************************)
+
+procedure FlushDiskCaches;
+begin
+  Reg.AX:=$4A10;
+  Reg.BX:=$0001;
+  Intr($2F,Reg);
+end;
+
+
+{컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴}
+(****************************************************************************)
+(* Reserved Words - Statements To Be Executed When The Unit Is Loaded.      *)
+(****************************************************************************)
+
+end.
+
+
+{컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴}

@@ -1,0 +1,46 @@
+
+                         [ Relativity Emag Viewer ]
+                    -===_____ ___  ===== _____=_____===-
+                    .:::\___ |_ \\____ __\___ | ___/:::.
+                   .::::://   _\  \\_ '  `_/  :  \\:::::.
+                    .:::/   _: __//  _:___//. `\   \:::.
+                     .://  |  \\__ .  __>___  /_\ . \:.
+                     _/   _\_    _\   .|  \\ .      \\_
+                     \_____/\____//.   :_. \\_________/
+                    -=========LZ\___________/97========-
+                               -=============-
+
+    -WARNING: READ COPYING BEFORE RUNNING THE VIEWER OR DISTRIBUTING IT!-
+  -WARNING: READ REV-FAQ.TXT BEFORE RUNNING THE VIEWER UNDER WINDOWS 95/98-
+
+Installation Notes:
+
+1) Please do not change the destination of C:\ or WINZIP will extract
+   to C:\YOURDIR\GRP\ISSUE_? and you dont want that. All installations
+   will be setup the same way to make it easy for you. The only time
+   you would change C:\ is if you want to put it on your D:\ drive or
+   something but I suggest you leave it to C:\ unless you absolutely
+   have to change the destination. If you use PKUNZIP please make sure
+   the ZIP file is in your root directory and use the pkunzip -d switch
+   to extract the files into their proper directories and sub-directories.
+
+2) Please submit bugs to MuadDib and not members of emags using the
+   Relativity Emag Viewer (C) Relativity Productions 1997-1998. Please
+   submit bugs via email only at muaddib@usa.net or if you can't seem
+   to get a reply, find him in #emags or #relativity on efnet (IRC).
+   Before submitting a bug please read the FAQ and try different command
+   line parameters. Those can be listed by doing revxx-xx.exe /?. The
+   default command line is revxx-xx.exe fxxx-xx.mdb emag.mdb.
+
+Minimum Requirements:
+
+- READ THE FAQ BEFORE SUBMITTING BUG REPORTS
+- 486DX/33MHZ OR BETTER
+- 4MB RAM OR HIGHER (EMS/XMS ENABLED)
+- 32BIT VESA VIDEO CARD (1MB VGA) (USE VVESA FOR EMULATION)
+- 8BIT SOUND CARD OR BETTER
+- DOS OR WINDOWS OPERATING SYSTEM (MAYBE LINUX W/DOSEMU)
+- WILL NOT WORK UNDER WINDOWS NT
+
+* The minimum requirements change only when we get evidence that proves
+  otherwise. (has to be at least 99% bugless)

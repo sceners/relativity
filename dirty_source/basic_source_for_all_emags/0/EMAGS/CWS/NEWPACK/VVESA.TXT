@@ -1,0 +1,162 @@
+August 15, 1993
+
+RELEASE NOTES FOR VESA SUPER VGA BIOS EXTENSION VVESA.COM (VER 2.21)
+
+READ THIS FILE COMPLETELY BEFORE ATTEMPTING TO USE THIS PRODUCT
+
+Contents
+
+1.0     Introduction
+2.0     Command Line Keywords
+3.0     VESA Modes Supported
+4.0     Vesatest Utility
+5.0     Windows and VVESA.COM
+6.0     VESA Standards
+
+
+1.0     Introduction
+
+VVESA.COM  is a Terminate and Stay Resident (TSR) program. It  is
+the implementation of the VESA Super VGA BIOS Extension  Standard
+#VS911022.
+
+VVESA  is not a driver. It is a program which enables your  video
+board  to  be used with VESA compatible  software.  Consult  your
+software manual or your software manufacturer's Technical Support
+to see if a VESA driver is available for your software.
+
+Install your software for VESA Super VGA.  Then run VVESA  before
+running  your VESA compatible software.  If you prefer,  a  batch
+file  can be written to invoke VVESA and then your software.  The
+resident portion of VVESA only consumes a small amount of memory.
+To run  MS Windows 3.1 with  VESA 800x600  16-color driver in the
+7-bit video mode 6A, VVESA is not required.
+
+To remove VVESA from memory, type: VVESA OFF.
+
+
+2.0     Command Line Keywords
+
+Here is a list of VVESA advanced command line keywords:
+
+    OFF   Remove the driver from the system memory.
+
+    PAN   Enable Linear Address
+          It  allows  user  to pan or scroll  within  the  entire
+          display  memory. Standard VGA will wrap around  at  the
+          end of 64K in planar mode.  Linear address is  disabled
+          at default.
+
+    55rw  Force single page read & write mode
+          The Write Page number is set to Read Page number when a
+          display  mode is initialized.  (Note that only  display
+          controller  28800-5 or higher is default to  dual  page
+          mode,   i.e. the writeable and readable windows can  be
+          programmed independently)
+
+    DUALPAGE
+          Turns on individual read and write windows which can be
+          programmed independently for all supported 8, 15 and 24
+          bit modes including: 100h, 101h, 103h, 105h, 110h, 112h
+          and 113h.
+
+
+    FOR MACH32 CARD USERS ONLY:
+
+    DUALPAGE
+          Does not enable separate read and write windows for
+          the following 15 and 16 bit modes: 110h, 111h, 113h, 114h,
+          115h, 116h and 117h.
+
+    NOHICOLOR
+          Disables  support for 32,768, 65,536 and 16.7M colour modes on
+          mach32 products.  It also disables support for mode 107h (1280
+          x 1024 256 colours). It will save above 4K of system memory if
+          your application does not support these high color modes.
+
+    ********
+    WARNING:
+    ********
+          If you change the VGA Memory Size setting in the Install
+          program, you must UNLOAD and then RELOAD the VESA driver.
+          Failure to do so can cause unpredictable results as the
+          driver may try and set modes that are no longer supported by
+          the new setting, or fail to support modes that are now possible.
+          To unload the driver use the command "vvesa off", to reload
+          it simply use the command "vvesa."
+
+
+
+For  example,  to enable driver to view  display  memory  at
+upper 512KB, type:
+
+                VVESA PAN      <enter>
+
+Then run your VVESA application.
+
+
+3.0     VESA Modes Supported
+
+The following VESA modes are supported:
+
+     MODE      RESOLUTION        MEMORY    MEMORY           PRODUCT
+     NUMBER    /COLORS           REQUIRED  MODEL            REQUIRED
+
+     100h      640x400   /256    512KB     packed pixel
+     101h      640x480   /256    512KB     packed pixel
+     102h      800x600   /16     256KB     4-plane planar
+     103h      800x600   /256    512KB     packed pixel
+     104h      1024X768  /16     512KB     4-plane planar   all except V3
+     105h      1024X768  /256    1MB       packed pixel
+     107h      1280X1024 /256    1MB       packed pixel     mach32
+     108h      80x60/16          256KB     Text mode
+     109h      132x25/16         256KB     Text mode
+     10Ah      132x43/16         256KB     Text mode
+     110h      640x480/32768     1MB       packed pixel     XL, XL24
+                                                            mach32
+     111h      640x480/65536     1MB       packed pixel     mach32
+     112h      640x480/16.7 M    1MB       packed pixel     XL24, mach32
+     113h      800x600/32768     1MB       packed pixel     XL24, mach32
+     114h      800x600/65536     1MB       packed pixel     mach32
+     115h      800x600/16.7 M    2MB       packed pixel     mach32
+     116h      1024x768/32768    2MB       packed pixel     mach32
+     117h      1024x768/65536    2MB       packed pixel     mach32
+
+Note that some display adapters may not be capable of  displaying
+all  the  modes listed above  depending on the  model,  amount of
+video memory  and how the  display adapter is  configured.  Check
+the user's manual of your display adapter for  information on how
+to configure display adapter and the available modes.
+
+Note that when using modes 107h, 110h, 111h, 112h, 113h, 114h, 115h,
+116h, or 117h on the mach32 some applications may appear with dim or
+incorrect colors. This happens because these modes require the colour
+registers (i.e. DAC registers) to be set through video BIOS calls only.
+Some applications set these registers directly, which results in
+incorrect colour settings in these modes. If you encounter this problem,
+contact the application publisher.
+
+
+4.0     Vesatest Utility
+
+VESATEST.EXE  is a  utility  program  to  check  which modes are
+supported on  your  display adapter,  run VESATEST after loading
+VVESA.  This utility  will provide a listing  of all VESA  modes
+available on your card.
+
+
+5.0     MicroSoft Windows and VVESA.COM
+
+Running VVESA.COM under Microsoft Windows is not recommended and can
+corrupt the display.
+
+
+6.0     VESA Standards
+
+Programmers  requiring more information about VESA standards  may
+obtain copies of the specifications by writing or calling:
+
+              VESA
+              1330 South Bascom Ave., Suite D
+              San Jose, CA 95128
+              (408) 971-7525

@@ -1,0 +1,69 @@
+Subject: SPECIAL NOTICE FOR IBM INTERNET CONNECTION SERVICES CUSTOMERS
+
+Dear IBM Internet Connection Services Customer:
+
+Effective April 1, 1998, customers currently on the IBM Internet Connection
+Services Unlimited Plan will automatically be moved to a new Comprehensive 
+Plan. The Comprehensive Plan allows up to 100 hours of usage per month for 
+a base price with hourly rates thereafter.  If you should exceed 100 hours 
+of usage in a given month, there will be an additional charge per extra 
+hour added to the base price. 
+Please visit http://www.ibm.net/whatsnew/html/feeschedules.html to review 
+the Comprehensive Plan fee schedule applicable for your country.
+
+We constantly strive to provide our customers high quality Internet service
+and for the second year have received PC World Magazine's Best Buy for 
+Internet Service Providers(1).  At the same time, we have a goal of keeping
+costs affordable to the majority of our valued customers.  Our research
+showed that while only a small percentage of our customers regularly exceed
+100 usage hours per month, these customers consume a significant percentage
+of our capacity.  The Comprehensive Plan is being implemented in order to
+maintain a high quality Internet service while sustaining monthly Internet
+service fees that are affordable to the majority of our customers.
+
+We believe that this high quality of service combined with support of 
+3COM's x2 technology(2) in over 600 cities worldwide, roaming privileges 
+to connect from nearly 1100 POPS in 52 countries and multiple E-mail IDs 
+per account makes IBM Internet Connection Services an excellent value to 
+our customers.
+		
+Your prior monthly usage indicates that during the period from October 1997
+through December 1997 your account DID NOT exceed 100 hours of usage in any
+one of those months.  If your future monthly usage pattern remains below 
+100 hours per month, your monthly cost of service will not be affected as a 
+result of this plan change(3).  To view a detailed report of your prior 
+monthly usage, please go to the IBM Internet Connection Services web site 
+at http://www.ibm.net and click on the "Account Center" tab.  You will be 
+required to enter your E-mail address and password for authentication. 
+Once in the "Account Center", click on the link for "Billing Information". 
+You may generate a monthly usage report for up to six months prior to the 
+date on which you submit the request.
+
+The plan change will automatically take place on April 1, 1998.  There is 
+no need to contact IBM Internet Connection Services or take any action 
+unless you want to change your pricing plan.  To select a plan other than 
+the Comprehensive Plan, please go to the IBM Internet Connection Services 
+web site at http://www.ibm.net and click on the "Account Center" tab. 
+You will be required to enter your E-mail address and password for 
+authentication. Once in the "Account Center", click on the link for 
+"Change Access Plan". If you select a new billing plan, your choice will
+take effect on the first day of the following month (i.e., billing change 
+made March 25th takes effect April 1st).
+
+For more information and Frequently Asked Questions (FAQs), please go to 
+the IBM Internet Connection Services web site at http://www.ibm.net and 
+review the "What's New" section.
+
+IBM Internet Connection Services
+
+(1) As ranked in January 1998 and February 1997 issues of PC World 
+    Magazine. PC World tested 12 U.S. Internet access providers in such 
+    areas as ease of connecting during peak evening hours, delivering and 
+    receiving e-mail on time and online help. 
+(2) x2 modems are designed to be capable of receiving data at up to 56Kbps 
+    from a x2 compatible service provider, and transmitting data at up to 
+    33.6Kbps. Public networks currently limit maximum download speeds to 
+    about 53Kbps. Actual speeds depend on many factors and are often less 
+    than the maximum possible.
+(3) Note that prior usage is not necessarily indicative of future usage 
+    patterns.

@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Are You Wearing Protection?</title>
+</HEAD>
+<body background="parch.gif" text="#0596D3" link="#319960" vlink="#80FFFF">
+
+<CENTER><FONT SIZE="+2.5" COLOR="Red">Nuke Information for Win95 users</FONT></CENTER><BR>
+<HR ALIGN="CENTER" WIDTH="200"><BR>
+
+<FONT SIZE="+1.5">
+There have been 2 New Nukes on the scene in the last few weeks(Teardrop and Land) which are being used to freeze Windows users, The following steps will work to protect most users from TearDrop & Land, as well
+as the previous nuker favourites from the summer Winnuke and ssping. Please remember these are TEMPORARY fixes
+and are NOT GUARANTEED TO WORK. They HAVE worked for myself and a few testers but that is no guarnatee they will do anything except upgrade your system a bit :)<BR>
+<BR>
+<FONT COLOR="Red">HAVE YOUR WIN95 INSTALLATION CD/DISKS available as some steps may require files from them.</FONT><BR>
+
+<p>
+It is essential you follow the following steps <FONT COLOR="RED">IN ORDER</FONT>.<BR>
+<BR>
+<CENTER>
+<TABLE BORDER=0>
+<TR>
+  <TD>Step 1:</TD>
+  <TD>Upgrade to Winsock 2 <A HREF="ms_wsock2.exe">here</A>( gotta love MS )</TD>
+</TR>
+<TR>
+  <TD>Step 2:</TD>
+  <TD>Update to DUN 1.2(Dial Up Networking) file with this, <A HREF="msdun12.exe">msdun12</A></TD>
+</TR>
+</TABLE>
+</CENTER>
+<BR><BR>
+
+<CENTER><FONT SIZE="+1.5" COLOR="Red">Now Your Ready To Install the Nuke Patches</FONT></CENTER><BR>
+<HR ALIGN="CENTER" WIDTH="200"><BR>
+
+<CENTER>
+<TABLE BORDER=0>
+<TR>
+  <TD>Step 1:</TD>
+  <TD>Install <A HREF="vipup20.exe">vipup20.exe</A></TD>
+</TR>
+<TR>  
+  <TD>Step 2:</TD>
+  <TD>Install <A HREF="vtcpupd.exe">vtcpupd.exe</A></TD>
+</TR>
+<TR>
+  <TD VALIGN="TOP">Step 3:</TD>
+  <TD>The Following step is required to "close" port 139 on your system.<BR>
+      It WILL cause troubles with anyone running a local network as it<BR>
+	  requires your disabling netbios(deals with file and printer sharing etc etc).<BR>
+	  This step is required in order to help protect yourself from "Land". As Land<BR>
+	  requires a open port(any open port) to connect to in order to send the crash<BR>
+	  by closing off port 139 you leave 1 less target for the Nuker.<BR>
+	  <BR>
+	  Rename <FONT COLOR="Black">C:\WINDOWS\SYSTEM\VNBT.386 to C:\WINDOWS\SYSTEM\VNBT.BAK</FONT><BR>
+	  ( In a DOS window type <BR>
+      <CENTER><FONT COLOR="Black"> ren c:\windows\system\vnbt.386 c:\windows\vnbt.bak</FONT></CENTER><BR>
+      )
+  </TD>	  
+</TR>
+<TR>
+  <TD VALIGN="TOP">Final :</TD>
+  <TD>
+    Lastly, in order to protect from Land, as was stated in the previous step you need<BR>
+    to close off all open ports, that means NO personal ftp,httpd or irc servers running folks<BR>
+    IF you have ANY of those running then your vulnerable. All that needs to be done is to send<BR>
+    a single land nuke to the port they are running on and your outa commission.<BR>
+	<BR>
+    Most people do not realize that mIRC can have 3 ports open depending on your setup.<BR>
+    The Identd Port,the DCC Server, and Finger Server. These can be disabled bye typing<BR>
+    /identd off<BR>
+	/dccserver off<BR>
+	and by going to the menu File/Options/Servers and Unchecking the Finger Server box.<BR>
+	<BR>
+	Now many(most) irc servers require you have identd on in order to connect so in theory<BR>
+    you could just have a little script such as:<BR><BR>
+	
+	on 1:start:{ identd on | dccserver off }<BR>
+	on 1:connect:{ .timer 1 3 identd off | dccserver off }<BR>
+	on 1:disconnect:{ identd on }<BR><BR>
+	
+    This would enable the ident server when you run mIRC or after you disconnect for any reason<BR>
+	and disable it 3 seconds after connecting to the server.<BR><BR>
+ 
+    IF you still find yourself vulnerable to land after following ALL of the above IN ORDER<BR>
+    then I would suspect you still have a port open, be sure that your NOT running anything that<BR>
+    could be listening for a connection(ie ftp,http,irc servers and EVEN the various nuke"nabbers"<BR>
+    and other nuke "watchers" as they open the ports as well, so trash them for the time being:P)<BR>
+    Once your sure of that, and you can't find any open ports your outa luck until an offical patch<BR>
+	comes along.<BR><BR>
+
+	Enjoy,GreyFoxx.<BR>
+
+  </TD>
+</TR>
+
+</TABLE>
+</CENTER>
+<BR><BR>
+
+Download these files & Install them IN THE ORDER SHOWN.  Close out all other programs before installation, reboot your system after you have completed ALL of the steps outlined above.
+
+<HR size="2" noshade><BR>
+
+</body>
+</html>
+

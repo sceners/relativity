@@ -1,0 +1,27 @@
+data.rar
+- first of all each issue you gotta hexedit makecws.exe and change
+  at position 471decimal and 472decimal from 09 to 10 or 14 depends 
+  on your issue (cws98-09.. 10 ...11
+- you need to edit whwalls.dta and change the so called text number from 
+  9 to 10 using the 'e' char
+- edit diz.pas and change the issue number, DONT CHANGE THE FILESIZE FROM 1039 
+  TO ANOTHER SIZE .. MOST IMPORTANT !!!!
+- change section1.bin and on with the new files
+  section1.bin - section6.bin
+  score1.bin - score3.bin
+  stats.bin : the news
+  intro.gif, format is GIF87a and not other !!!
+  end.bin -4000 bytes
+  intro.bin
+  rulez.bin
+  mainmenu.bin
+- IF YOU CHANGE THE MAINMENU.BIN OR THE END.BIN MAKE SURE THEY ARE 4000 BYTES
+  IN SIZE 
+- every file must be from 4000-40000 bytes .. not more not less
+
+- run makecws.exe, you'll get the cws98-xx.mdb and put it in the packing dir
+
+pack.rar
+- change cws.bat .. the third file name must be the same as the cws emag 
+  file name (cws98-09.mdb ..)
+- pack with the cws emag file and all the files in the pack, and your DONE .

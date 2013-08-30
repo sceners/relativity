@@ -1,0 +1,729 @@
+Questo file contiene tutti i muri di mattoncini del gioco ARKANOID.
+
+Se si desidera editarli si puo' usufruire della seguente tabella per settare
+il colore e il tipo desiderato. Si prega di rispettare i margini prestabiliti.
+
+Qualunque riga che non cominci con i caratteri ";" "/" "*" viene considerata
+un commento e viene pertanto ignorata.
+
+I caratteri sopra indicati hanno il seguente significato.
+
+ ";" quanto segue e' il muro successivo, quello corrente e' terminato.
+
+ "*" ogni fila orizzontale di mattoncini deve essere preceduta da questo
+     simbolo e da uno spazio. La fila deve essere non piu' lunga di 13
+     mattoncini, selezionabili da quelli indicati nella tabella.
+
+ "/" Indica la fine logica del file, quanto segue viene tutto considerato
+     come commento e viene pertanto ignorato. Di solito conviene tenere una
+     matrice vuota alla fine del 32-esimo muro per evitare tutte le volte
+     che si cancella uno schermo di doversi rifare la matrice di base.
+
+
+Tabella dei colori
+
+a = bianco    { normale cade con un colpo }
+b = arancione             ''
+c = ciano                 ''
+d = verde                 ''
+e = rosso                 ''
+f = blu                   ''
+g = porpora               ''
+h = giallo                ''
+i = grigio    { occorrono piu' colpi per abbatterlo }
+j = marrone   { indistruttibile                     }
+
+
+
+Seguono i livelli.
+
+Level 1          <-- (Questa riga e quella sotto sono solo di bellezza)
+  -------------
+*              
+* ffff fff f  f   
+* f  f f   f  f
+* fff  ff  f  f 
+* f  f f   f  f
+* f  f fff  ff  
+* 
+*   e  e  eeee  
+*  eeeeee e    
+*   e  e  eeee  
+*  eeeeee    e   
+*   e  e  eeee  
+* 
+*
+*
+
+;
+
+Level 2
+  -------------
+*
+*  dd dd d   d
+*  d d d d   d
+*  d d d d   d
+*  d   d d   d
+*  d   d dddd 
+*    
+*   ddd  dddd 
+*  d   d d   d
+*  ddddd d   d
+*  d   d d   d
+*  d   d dddd
+*
+*
+*
+
+;
+
+Level 3
+  -------------
+* 
+* iii i  i i i 
+* i   i  i i i
+* ii  ii i ii 
+* i   i ii i i
+* iii i  i i i
+*    
+*    
+*   
+*    
+*   
+*    
+*   
+*   
+* 
+
+;
+
+Level 4
+  -------------
+* bbbb  bbbb    
+* b   b b   b
+* bbbb  b   b
+* b   b b   b
+* bbbb  bbbb  
+*
+* 
+*     hh 
+*    h h
+*      h
+*      h
+*      h
+*   hhhhhhh
+* 
+
+;
+
+
+Level 5
+  -------------
+*    h     h
+*    h     h
+*     h   h
+*     h   h
+*    iiiiiii
+*    iiiiiii
+*   iieiiieii
+*   iieiiieii
+*  iiiiiiiiiii
+*  iiiiiiiiiii
+*  i iiiiiii i
+*  i i     i i
+*  i i     i i
+*     ii ii
+*     ii ii
+
+;
+
+Level 6
+  -------------
+* f e d c d e f
+* f e d c d e f
+* f e d c d e f
+* f e d c d e f
+* f e d c d e f
+* f jbjbjbjbj f
+* f e d c d e f
+* f e d c d e f
+* f e d c d e f
+* f e d c d e f
+* b b j b j b b
+* f e d c d e f
+*
+*
+*
+
+;
+
+Level 7
+  -------------
+*
+*      hhg
+*     hhggf
+*    hhggffe
+*    hggffee
+*   hggffeedd
+*   ggffeeddc
+*   gffeeddcc
+*   ffeeddccb
+*   feeddccbb
+*   eeddccbba
+*    ddccbba
+*    dccbbaa
+*     cbbaa
+*      baa
+
+;
+
+Level 8
+  -------------
+*
+*    j j j j
+*  j         j
+*  jj j   j jj
+*       a
+*  j   jbj   j
+*    j  c  j
+*       d
+*    j  e  j
+*  j   jfj   j
+*       g
+*  jj j   j jj
+*  j         j
+*    j j j j
+*
+
+;
+
+Level 9
+  -------------
+*  j j     j j
+*  jdj     jdj
+*  jcj     jcj
+*  jjj     jjj
+*
+*     gaaah
+*     gbbbh
+*     gccch
+*     gdddh
+*     geeeh
+*     gfffh
+*
+*
+*
+*
+
+;
+
+Level 10
+  -------------
+*  j
+*  j
+*  j
+*  j     f
+*  j    fcf
+*  j   fcacf
+*  j  fcacacf
+*  j fcacicacf
+*  j  fcacacf
+*  j   fcacf
+*  j    fcf
+*  j     f
+*  j
+*  j
+*  jjjjjjjjjjjj
+
+;
+
+Level 11
+  -------------
+*
+*  iiiiiiiiiii
+*  i         i
+*  i iiiiiii i
+*  i i     i i
+*  i i iii i i
+*  i i i i i i
+*  i i iii i i
+*  i i     i i
+*  i iiiiiii i
+*  i         i
+*  iiiiiiiiiii
+*
+*
+*
+
+;
+
+Level 12
+  -------------
+* a
+* jjjjjjjjjjj
+*     j     jg
+*  ja j     j
+*  j  j  j  j
+*  j  jd j  j
+*  j  j  j  j
+*  j bj  jf j
+*  j  j  j  j
+*  j  j ej  j
+*  j  j  j  j
+*  jc    j
+*  j     j    h
+*  jjjjjjjjjjjj
+*
+
+;
+
+Level 13
+  -------------
+*
+*  hhh aaa hhh
+*  ggg bbb ggg
+*  fff ccc fff
+*  eee ddd eee
+*  ddd eee ddd
+*  ccc fff ccc
+*  bbb ggg bbb
+*  aaa hhh aaa
+*
+*
+*
+*
+*
+*
+
+;
+
+Level 14
+  -------------
+*
+* fffffffffffff
+* j           j
+* fffffffffffff
+*
+* biiiiiiiiiiib
+* j           j
+* aaaaaaaaaaaaa
+*
+* ciiiiiiiiiiic
+* j           j
+* eeeeeeeeeeeee
+*
+* eeeeeeeeeeeee
+* j           j
+
+;
+
+Level 15
+  -------------
+*
+*
+* cajcccccccjac
+* cahjcccccjdac
+* cahhjcccjddac
+* cahhhjajdddac
+* cahhhhaddddac
+* cahhhhaddddac
+* cahhhhaddddac
+* cihhhhaddddic
+* ccihhhadddicc
+* cccihhaddiccc
+* ccccihadicccc
+* ccccciaiccccc
+*
+
+;
+
+Level 16
+  -------------
+*       j
+*     aa aa
+*   aa  j  aa
+* aa  bb bb  aa
+*   bb  j  bb
+* bb  hh hh  bb
+*   hh  j  hh
+* hh  dd dd  hh
+*   dd  j  dd
+* dd  ee ee  dd
+*   ee  j  ee
+* ee  ff ff  ee
+*   ff     ff
+* ff         ff
+*
+
+;
+
+Level 17
+  -------------
+*
+*       i
+*    fffiddd
+*   fffaaaddd
+*   ffaaaaadd
+*  fffaaaaaddd
+*  fffaaaaaddd
+*  fffaaaaaddd
+*  i  i i i  i
+*       i
+*       i
+*       i
+*     j j
+*     jjj
+*      j
+
+
+
+;
+
+Level 18
+  -------------
+*
+*
+*
+* b jhhhhhhhj b
+* b jjhhhhhjj b
+* b j jhhhj j b
+* b j gjhjc j b
+* b j g i c j b
+* b j g d c j b
+* b j g d c j b
+* b j g d c j b
+* b j g d c j b
+* bjjjg d cjjjb
+*
+*
+
+;
+
+Level 19
+  -------------
+*
+*   jjjjjjjjj
+*   defgjgfed
+*   defgjgfed
+*   defgjgfed
+*   defghgfed
+*   defgjgfed
+*   defgjgfed
+*   defgjgfed
+*   jjjjjjjjj
+*
+*
+*
+*
+*
+
+;
+
+Level 20
+  -------------
+*
+* jajbjcjdjejfj
+* jgjijijijijhj
+*
+* jgj j j j j j
+* j jgj j j j j
+* j j jgj j j j
+* j j j jgj j j
+* j j j j jgj j
+*            g
+*   j j j jgj
+*   j j jgj j
+*   j jgj j j
+*    gj j j
+*  g    j
+
+;
+
+Level 21
+  -------------
+*
+*  jbbbbbbbbbj
+*  j         j
+*  j jjjjjjj j
+*  j j     j j
+*  j j     j j
+*  j j eee j j
+*  j j ddd j j
+*  j j fff j j
+*  j j aaa j j
+*  j j     j j
+*  j jcccccj j
+*  j         j
+*  jjjjjjjjjjj
+*
+
+;
+
+Level 22
+  -------------
+*
+*
+* hhhhhhhhhhhhh
+* hhhhhhhhhhhhh
+*
+* eej jeeej jee
+* eej jeeej jee
+* eej jeeej jee
+* eej jeeej jee
+*
+* aaaaaaaaaaaaa
+* aaaaaaaaaaaaa
+*
+*
+*
+
+;
+
+Level 23
+  -------------
+*
+* ccccccccccccc
+*
+*   iii iii iii
+*   idi idi idi
+*   iii iii iii
+*
+*  iii iii iii
+*  iei iei iei
+*  iii iii iii
+*
+* iii iii iii
+* ifi ifi ifi
+* iii iii iii
+
+
+;
+
+Level 24
+  -------------
+*
+*
+*
+*      aaa
+*      aaa
+*     aaaaa
+*     afafa
+*    affaffa
+*    fffffff
+*   fffffffff
+*   fffffffff
+*  fffffffffff
+* fffffffffffff
+*
+*
+
+;
+
+Level 25
+  -------------
+*
+*
+* eeeeeeeeeeeee
+* ddddddddddddd
+* fffffffffffff
+* jjjjjiiijjjjj
+* jeeej   jfffj
+* jeeej   jfffj
+* j           j
+* j           j
+* j   jdddj   j
+* j   jdddj   j
+* jiiijjjjjiiij
+*
+*
+
+;
+
+Level 26
+  -------------
+*
+*
+*   jiiij
+*  j     j
+* j  ccc  j
+* j ddddd j
+* j fffff j
+* j  ggg  j
+*  j     j
+*   jjjjj
+*
+*
+*
+*
+*
+
+;
+
+Level 27
+  -------------
+*
+*
+*
+*
+*
+*
+*
+* iiiiiiiiiiiii
+* hhhhhhhhhhhhh
+* iiiiiiiiiiiii
+*
+* iiiiiiiiiiiii
+* eeeeeeeeeeeee
+* iiiiiiiiiiiii
+*
+
+
+;
+
+Level 28
+  -------------
+*
+* fffffffffffff
+* fjjjjgjgjjjjf
+* fj         jf
+* fjg       gjf
+* fjgg     ggjf
+* fjggg   gggjf
+*  fjggg gggjf
+*   fjgggggjf
+*    fjgggjf
+*     fjgjf
+*      fgf
+*       f
+*
+*
+
+;
+
+Level 29
+  -------------
+*
+*
+* hhhhhj jhhhhh
+* gggggj jggggg
+* jjajjj jjjajj
+* fffffj jfffff
+* eeeeej jeeeee
+* dddddj jddddd
+* iiaiij jiiaii
+* cccccj jccccc
+* bbbbbj jbbbbb
+* aaaaaj jaaaaa
+*
+*
+*
+
+;
+
+Level 30
+  -------------
+* hg
+* hgfe
+* hgfedc
+* hgfedcba
+* hgfedcbahg
+* igfedcbahgfe
+*  jiedcbahgfed
+*    jicbahgfed
+*      jiahgfed
+*        jigfed
+*          jied
+*            ji
+*
+*
+*
+
+;
+
+Level 31
+  -------------
+*
+* d e f g h a b
+* i i i i i i i
+*  f g d a b a
+*  i i i i i i
+* a d e f g h a
+* i i i i i i i
+*  g f e d a b
+*  i i i i i i
+* b a d e f g h
+* i i i i i i i
+*  h g f e d a
+*  i i i i i i
+* a b a d e f g
+* i i i i i i i
+
+
+;
+
+Level 32
+  -------------
+*
+*
+*   j j j j j
+*   j j j j j
+*   j j j jdd
+*   j j j j j
+*   j j jeeee
+*   j j j j j
+*   j jffffff
+*   j j j j j
+*   jgggggggg
+*   j j j j j
+*   hhhhhhhhh
+*   iiiiiiiii
+*
+
+;
+
+/ Fine logica del file. Quanto segue viene ignorato;
+
+
+Level 33
+  -------------
+* jjjjjjajjjjjj
+* j    jjj    j
+* j j       j j
+* j j j j j j j
+* j j  j j  j j
+* j j j j j j j
+* j j  j j  j j
+* j j j j j j j
+* j j  j j  j j
+* j j j j j j j
+* j j  j j  j j
+* j j j j j j j
+* j j  j j  j j
+* j           j
+* jjjjjj jjjjjj
+
+;
+
+
+Questo e' consigliabile tenerlo per evitare di rifarlo tutte le volte che
+si desidera costruire un nuovo quadro.
+
+Level 32
+  -------------
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+;

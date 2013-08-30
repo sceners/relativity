@@ -1,0 +1,29 @@
+Welcome, to the NOT LONG awaited issue #7. Told you releases would be
+coming out quicker now didn't I? We need more writers a.s.a.p. because we
+are doing releases every 2-3 weeks. Please join #relativity or email
+muaddib@usa.net to signup now, don't miss it! Visit the Scenelink website
+at http://www.scenelink.org on the NEWS page and read the article on
+Relativity. MuadDib is using our emag's code to make a standard for emags
+arise. Courier Weektop Scorecard, The Gamers Edge, Future Scene News, and
+Scenelink are the groups currently involved. Each group has to submit their
+vga art (GIF 640x480x256), their ansi's (saved .BIN in ACiDDRAW), and their
+articles (saved .BIN in ACiDDRAW) to MuadDib so he can organize the
+submissions to work with the Relativity Emag Viewer. Emags will be released
+on time and releases will take less time to download. Plus, all you need to
+view each emag will be the Relativity Emag Viewer. Releases will just
+include the art and the articles and people won't have to worry about
+compatibility problems. This also makes it easier for groups to get off the
+ground quicker. Groups don't have to spend time looking for coders and
+waist more time trying to debug and put together a release. Our release
+strategy is simple. 1) You submit everything to MuadDib. 2) He puts the
+whole release together. 3) People help beta test the release for whichever
+emag it may be. 4) The files are then packed and released and the
+Relativity Emag Viewer is used to view them. Now that everybody understands
+our new strategy for the emag scene, let's make it come alive! Also, all
+emag groups have agreed to form an emag channel for the sole purpose of the
+emag scene. This channel can be found on efnet in #emags. Now without any
+further delay, get ready to rumble with issue #7 of relativity emag!
+Remember, the scene is alive because of you so apply now! Also, be sure to
+check out our temporary website at www.mirage.org/relativity/ until we get
+our own domain at relativity.mirage.org. New issues will be made available
+on Scenelink and mirrors. Special thanks to all our sponsors!

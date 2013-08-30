@@ -1,0 +1,807 @@
+{ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ}
+(****************************************************************************)
+(* Compiler Directives - These Directives Are Not Meant To Be Modified.     *)
+(****************************************************************************)
+unit revhelp;
+
+interface
+uses  Crt,Dos,RevDat,RevGfx,RevAnsi,
+      revsmth,revconst,revmus,revfnt,revtech;
+
+function Getstr(x,y:integer; var str:string; length1:integer):boolean;
+Procedure CheckMusic(var cur:integer);
+Procedure help(f:string; x,y:integer; adf:boolean);
+procedure write_help(b,t:integer; volu:boolean);
+
+implementation
+uses revrad{,advhsc},cdunit_p{,cd_vars},cdpla1;
+const xpos=5;
+{ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ}
+(****************************************************************************)
+(* Reserved Words -  eRR...                                                 *)
+(****************************************************************************)
+
+function Getstr(x,y:integer; var str:string; length1:integer):boolean;
+var i,j:integer;
+    k:char;
+    label finet,fin,finer,over,start;
+begin
+getstr:=false;
+start:
+textbackground(black);textcolor(darkgray);
+gotoxy(x,y);
+if str<>'' then
+begin
+     write(str);
+end;
+k:=#22;
+while k <> #13 do
+begin
+     over:
+     k:=readkey;
+     if k=#0 then goto over;
+     if k=#27 then goto finet;
+     if k=#13 then goto finer;
+     if k=#8 then
+     begin
+          delete(str,length(str),1);
+          gotoxy(x,y);
+          for j:= 1 to length1 do
+              write('_');
+          gotoxy(x,y);write(str);
+     end
+     else
+     begin
+          if length(str)<length1 then
+          begin
+               str:=str+upcase(k);
+               gotoxy(x,y);write(str);
+          end;
+     end;
+end;
+finer:
+getstr:=true;
+fin:
+if str='' then goto start;
+finet:
+end;
+
+Procedure CheckMusic(var cur:integer);
+begin
+if cur<1 then cur:=config^.lastmus;
+if cur>config^.lastmus then cur:=1;
+end;
+
+procedure write_help(b,t:integer; volu:boolean);
+var
+   i,a,x,y:integer;
+   str:string;
+begin
+textcolor(black);
+textbackground(lightblue);
+x:=16-xpos;
+y:=17;
+for a := 1 to maxhelp do
+  begin
+    if (b=a) then
+    begin
+         if a in [1,2,3,4,5,6,7,8,9] then
+         begin
+              gotoxy(x-1,y);
+              str:=config^.help_menu[a];
+              textbackground(blue);
+              write(' ');
+              textcolor(lightblue);
+              write(str[1]);
+              write(str[2]);
+              for i:= 3 to length(str) do
+                  write(str[i]);
+         end;
+         if a in config^.notavhelp then
+         begin
+         gotoxy(x-1,y);
+         str:=config^.help_menu[a];
+         textbackground(blue);
+         write(' ');
+         textcolor(darkgray);
+         write(str[1]);
+         write(str[2]);
+         for i:= 3 to length(str) do
+             write(str[i]);
+         end;
+         if (a = 2) and (volu=false) then
+         begin
+              gotoxy(x-1,y);
+              str:=config^.help_menu[a];
+              textbackground(blue);
+              write(' ');
+              textcolor(darkgray);
+              write(str[1]);
+              write(str[2]);
+              for i:= 3 to length(str) do
+                  write(str[i]);
+         end;
+    end
+    else
+    begin
+         if a in [1,2,3,4,5,6,7,8,9] then
+         begin
+         gotoxy(x-1,y);
+         str:=config^.help_menu[a];
+         textbackground(black);
+         write(' ');
+         textcolor(blue);
+         write(str[1]);
+         textcolor(lightblue);
+         write(str[2]);
+         textcolor(lightblue);
+         for i:= 3 to length(str) do
+             write(str[i]);
+         end;
+         if a in config^.notavhelp then
+         begin
+         gotoxy(x-1,y);
+         str:=config^.help_menu[a];
+         textbackground(black);
+         write(' ');
+         textcolor(darkgray);
+         write(str[1]);
+         write(str[2]);
+         for i:= 3 to length(str) do
+             write(str[i]);
+         end;
+         if (a = 2) and (volu=false) then
+         begin
+              gotoxy(x-1,y);
+              str:=config^.help_menu[a];
+              textbackground(black);
+              write(' ');
+              textcolor(darkgray);
+              write(str[1]);
+              write(str[2]);
+              for i:= 3 to length(str) do
+                  write(str[i]);
+         end;
+    end;
+    inc(y);
+  end;
+end;
+
+
+Procedure WriteVol(vol:byte);
+var i:integer;
+begin
+     gotoxy(42-xpos,18);
+     textbackground(black);textcolor(darkgray);
+     for i:= 1 to (12-(64-vol)) do
+     write('Û');
+     for i:= 1 to (64-vol) do
+     write('_');
+end;
+
+Procedure help(f:string; x,y:integer; adf:boolean);
+const defstr='þ ------------ ';
+var k:char;
+    s,s2,i,c:integer;
+    str:string;
+    flag:boolean;
+    label stop,damn,fin,aftercd,cdafter1,aftercd2;
+
+Procedure InitOnoffMusic;
+begin
+if not adlib then
+config^.muson:=false;
+textbackground(lightblue);textcolor(darkgray);
+gotoxy(32-xpos,17);write('[');gotoxy(39-xpos,17);write(']');
+if config^.muson=true then
+begin
+     textbackground(lightblue);textcolor(lightgreen);
+     gotoxy(33-xpos,17);write('ON');
+     textbackground(black);textcolor(green);
+     gotoxy(35-xpos,17);write('/');
+     textbackground(lightblue);textcolor(darkgray);
+     gotoxy(36-xpos,17);write('OFF');
+end
+else
+begin
+     textbackground(lightblue);textcolor(darkgray);
+     gotoxy(33-xpos,17);write('ON');
+     textbackground(black);textcolor(green);
+     gotoxy(35-xpos,17);write('/');
+     textbackground(lightblue);textcolor(lightgreen);
+     gotoxy(36-xpos,17);write('OFF');
+end
+end;
+
+procedure InitHelp;
+var i:integer;
+    tstr:string;
+begin
+{- init mus write - }
+textbackground(lightblue);textcolor(darkgray);
+gotoxy(41-xpos,17);write('[');gotoxy(54-xpos,17);write(']');
+textbackground(black);textcolor(darkgray);
+gotoxy(42-xpos,17);write('            ');
+gotoxy(42+((12-length(config^.music[config^.curmus,1]))div 2)-xpos,17);
+write(config^.music[config^.curmus,1]);
+textbackground(lightblue);textcolor(darkgray);
+gotoxy(56-xpos,17);write('[');gotoxy(71-xpos,17);write(']');
+textbackground(black);textcolor(darkgray);
+gotoxy(57-xpos,17);write('             ');
+gotoxy(57+((15-length(config^.music[config^.curmus,3]))div 2)-xpos,17);
+write(config^.music[config^.curmus,3]);
+{- init volume -}
+textbackground(lightblue);textcolor(darkgray);
+gotoxy(41-xpos,18);write('[');gotoxy(54-xpos,18);write(']');
+textbackground(black);textcolor(darkgray);
+gotoxy(42-xpos,18);write('____________');
+{- init brightness -}
+textbackground(lightblue);textcolor(darkgray);
+gotoxy(41-xpos-9,21);write('[');gotoxy(63-xpos-9,21);write(']');
+textbackground(black);textcolor(darkgray);
+gotoxy(42-xpos-9,21);write('                     ');
+end;
+
+Procedure InitFont(num:integer);
+begin
+textbackground(lightblue);textcolor(darkgray);
+gotoxy(41-xpos,20);write('[');gotoxy(54-xpos,20);write(']');
+textbackground(black);textcolor(darkgray);
+gotoxy(42-xpos,20);write('            ');
+gotoxy(42+((12-length(config^.font[config^.curfnt])) div 2)-xpos,20);
+write(config^.font[config^.curfnt]);
+end;
+
+Procedure initsave(var str:string);
+var tstr:string;
+    i:integer;
+begin
+tstr:=str;
+delete(tstr,length(tstr)-3,4);
+tstr:=tstr+'.TXT';
+textbackground(lightblue);textcolor(darkgray);
+gotoxy(41-xpos,19);write('[');gotoxy(54-xpos,19);write(']');
+textbackground(black);textcolor(darkgray);
+gotoxy(42-xpos,19);write(tstr);
+for i:= 1 to 12-length(tstr) do
+    write('_');
+str:=tstr;
+end;
+
+Procedure SaveFile(iner,out:string);
+var b:array[1..2000] of char;
+    f1:file;
+    f2:text;
+    j,i,lin:longint;
+    numread:word;
+begin
+     lin:=0;
+     assign(f1,iner);
+     reset(f1,1);
+     assign(f2,out);
+     rewrite(f2);
+     if adf then seek(f1,4289); { 4289=header}
+while numread<>0 do
+begin
+     BlockRead(F1,b, SizeOf(b), NumRead);
+     for i:= 1 to NUMREAD do
+     begin
+          if (i mod 2) <> 0 then
+          begin
+               if lin=79 then
+               begin
+                    lin:=0;
+                    writeln(f2,b[i]);
+               end
+               else
+               begin
+                    lin:=lin+1;
+                    write(f2,b[i]);
+               end;
+          end;
+     end;
+end;
+     close(f1);
+     close(f2);
+hidecursor;
+textbackground(lightblue);textcolor(darkgray);
+gotoxy(56-xpos,19);write('[');gotoxy(67-xpos,19);write(']');
+textbackground(black);textcolor(lightgreen);
+gotoxy(58-xpos,19);write('saved ...');
+delay(1000);
+end;
+
+Procedure changebrightness;
+var j,i:integer;
+begin
+  for j:= 1 to 15 do
+  begin
+  SetPal(j,config^.scr[j,1],config^.scr[j,2],config^.scr[j,3]);
+  end;
+  textbackground(black);textcolor(darkgray);
+  gotoxy(42-xpos-9,21);write('_____________________');
+  gotoxy(42-xpos-9,21);
+  for i:= 1 to brightness do
+  write('Û');
+end;
+
+Procedure InitCdRom;
+begin
+textbackground(blue);textcolor(darkgray);
+gotoxy(32-xpos,22);write('[]');
+gotoxy(37-xpos,22);write('[]');
+gotoxy(41-xpos,22);write('[]');
+gotoxy(44-xpos,22);write('[]');
+gotoxy(47-xpos,22);write('[ð]');
+gotoxy(50-xpos,22);write('[þ]');
+gotoxy(53-xpos,22);write('[]');
+gotoxy(57-xpos,22);write('[]');{}
+IF CD then
+begin
+gotoxy(62-xpos,22);write('[  :  :  ]');
+if cdsongpos in [1,2,3,4,5,6,7,8,9] then
+gotoxy(62-xpos+2,22);
+if cdsongpos > 9 then
+gotoxy(62-xpos+1,22);
+write(cdsongpos);
+if TrackInfo[cdsongpos]^.playmin in [1,2,3,4,5,6,7,8,9] then
+gotoxy(62-xpos+5,22);
+if TrackInfo[cdsongpos]^.playmin >9 then
+gotoxy(62-xpos+4,22);
+write(TrackInfo[cdsongpos]^.playmin);
+if TrackInfo[cdsongpos]^.playsec in [1,2,3,4,5,6,7,8,9] then
+gotoxy(62-xpos+8,22);
+if TrackInfo[cdsongpos]^.playsec >9 then
+gotoxy(62-xpos+7,22);
+write(TrackInfo[cdsongpos]^.playsec);
+end;
+if (not cd)  then
+begin
+     gotoxy(62-xpos,22);write('[XX:XX:XX]');
+end;
+textcolor(lightgreen);
+if cdactpos=1 then
+begin
+     gotoxy(32-xpos,22);write('[]');
+end;
+if cdactpos=2 then
+begin
+     gotoxy(37-xpos,22);write('[]');
+end;
+if cdactpos=3 then
+begin
+     gotoxy(41-xpos,22);write('[]');
+end;
+if cdactpos=4 then
+begin
+     gotoxy(44-xpos,22);write('[]');
+end;
+if cdactpos=5 then
+begin
+     gotoxy(47-xpos,22);write('[ð]');
+end;
+if cdactpos=6 then
+begin
+     gotoxy(50-xpos,22);write('[þ]');
+end;
+if cdactpos=7 then
+begin
+     gotoxy(53-xpos,22);write('[]');
+end;
+if cdactpos=8 then
+begin
+     gotoxy(57-xpos,22);write('[]');
+end;
+end;
+
+
+begin
+FadedownRGBScreen;
+Reset80x25VideoScreen;
+HideCursor;
+c:=1;
+extractfilefromdat(hpmenufile);
+Displayansi(HPmenufile);
+k:=#22;
+write_help(c,topics,volu);
+{------------------------}
+if cd then
+   setup;
+InitCdRom;
+inithelp;
+InitOnoffMusic;
+initfont(config^.curfnt);
+changebrightness;
+{------------------------}
+if x<>19 then
+begin
+     str:=config^.subfile[x][y];
+     initsave(str);
+end;
+writevol(config^.vol);
+repeat
+textbackground(black);textcolor(black);
+gotoxy(56-xpos,19);write('            ');
+  k:=readkey;
+  if k=#0 then
+  k:=readkey;
+  case k of
+    #59 : begin
+          end;
+    #72 : begin
+          dec(c);
+          while c in config^.notavhelp do
+             begin
+                  c:=c-1;
+             end;
+          end;                            {up}
+    #80 : begin
+               inc(c);
+          while c in config^.notavhelp do
+             begin
+                  c:=c+1;
+             end;
+          end;
+    #81 : begin
+          if c in [10,11,12,13,14,15,16,17,18] then c:=18;
+          if c=9 then c:=10;
+          if c in [1,2,3,4,5,6,7,8] then c:=9;
+          while c in config^.notavhelp do
+             begin
+                  c:=c+1;
+             end;
+          end;
+    #73 : begin
+          if c in [1,2,3,4,5,6,7,8,9] then c:=1;
+          if c=10 then c:=9;
+          if c in [10,11,12,13,14,15,16,17,18] then c:=10;
+          while c in config^.notavhelp do
+             begin
+                  c:=c-1;
+             end;
+          end;
+    #27,'q' : begin deletedatfile(hpmenufile); goto fin; end;
+    #77 : Begin
+          if c= 1 then
+          begin
+          if adlib then
+          begin
+               StopMusic(config^.music[config^.curmus,1],config^.music[config^.curmus,2]);
+               config^.curmus:=config^.curmus+1;
+{-----------------------------------------------------------------------}
+{               while config.music[config.curmus,2]='HSC' do
+               begin
+               config.curmus:=config.curmus+1;
+               checkmusic(config.curmus);
+               end;
+{-----------------------------------------------------------------------}
+               checkmusic(config^.curmus);
+{after this there should be another check for hsc.. if hsc is out of the emag}
+               if config^.muson=true then
+               PlayMusic(config^.music[config^.curmus,1],config^.music[config^.curmus,2]);
+               if config^.music[config^.curmus,2]='RAD' then
+               begin
+                    volu:=true;
+                    writevol(config^.vol);
+               end
+               else
+               begin
+                    volu:=false;
+                    writevol(52);
+               end;
+               textbackground(black);textcolor(darkgray);
+               gotoxy(42-xpos,17);write('           ');
+               gotoxy(42+((12-length(config^.music[config^.curmus,1]))div 2)-xpos,17);
+               write(config^.music[config^.curmus,1]);
+               gotoxy(57-xpos,17);write('             ');
+               gotoxy(57+((15-length(config^.music[config^.curmus,3]))div 2)-xpos,17);
+               write(config^.music[config^.curmus,3]);
+          end;
+          end;
+          if (c = 2)  then
+          begin
+          if adlib then
+          begin
+              if (config^.vol<>64) then
+              begin
+              if volu=true then
+              begin
+                   config^.vol:=config^.vol+1;
+                   radvolume(config^.vol);
+                   writevol(config^.vol);
+              end;
+              end;
+              if volu=false then
+                  writevol(52)
+          end;
+          end;
+          if c = 4 then
+          begin
+          inc(config^.curfnt);
+          if config^.curfnt>config^.lastfnt then
+             config^.curfnt:=1;
+          textbackground(lightblue);textcolor(darkgray);
+          gotoxy(41-xpos,20);write('[');gotoxy(54-xpos,20);write(']');
+          textbackground(black);textcolor(darkgray);
+          gotoxy(42-xpos,20);write('            ');
+          gotoxy(42+((12-length(config^.font[config^.curfnt])) div 2)-xpos,20);
+          write(config^.font[config^.curfnt]);
+          fontload(config^.font[config^.curfnt]);
+          end;
+          if c = 5 then
+          begin
+          flag:=false;
+          for s:= 0 to 15 do
+          begin
+               if (config^.scr[s,1]=63) and (config^.scr[s,2]=63) and (config^.scr[s,3]=63) then
+                  flag :=true;
+          end;
+          if flag=false then
+          begin
+               for s:= 0 to 15 do
+               begin
+                    inc(config^.scr[s,1],1);
+                    inc(config^.scr[s,2],1);
+                    inc(config^.scr[s,3],1);
+               end;
+               inc(brightness);
+          end;
+          changebrightness;
+          end;
+          if c = 6 then
+          begin
+               inc(cdactpos,1);
+               if cdactpos>8 then cdactpos:=1;
+               if cdactpos=2 then cdactpos:=3;
+               if cdactpos=7 then cdactpos:=8;
+               InitCdRom;
+          end;
+      end;
+    #75 : begin
+          if c= 1 then
+          begin
+          if adlib then
+          begin
+               StopMusic(config^.music[config^.curmus,1],config^.music[config^.curmus,2]);
+               config^.curmus:=config^.curmus-1;
+{-----------------------------------------------------------------------}
+{               while config.music[config.curmus,2]='HSC' do
+               begin
+               config.curmus:=config.curmus-1;
+               checkmusic(config.curmus);
+               end;
+{-----------------------------------------------------------------------}
+               checkmusic(config^.curmus);
+{after this there should be another check for hsc.. if hsc is out of the emag}
+               if config^.muson=true then
+               PlayMusic(config^.music[config^.curmus,1],config^.music[config^.curmus,2]);
+               if config^.music[config^.curmus,2]='RAD' then
+               begin
+               volu:=true;
+               writevol(config^.vol);
+               end
+               else
+               begin
+               volu:=false;
+               writevol(52);
+               end;
+               textbackground(black);textcolor(darkgray);
+               gotoxy(42-xpos,17);write('           ');
+               gotoxy(42+((12-length(config^.music[config^.curmus,1]))div 2)-xpos,17);
+               write(config^.music[config^.curmus,1]);
+               gotoxy(57-xpos,17);write('             ');
+               gotoxy(57+((15-length(config^.music[config^.curmus,3]))div 2)-xpos,17);
+               write(config^.music[config^.curmus,3]);
+          end;
+          end;
+          if (c = 2)  then
+          begin
+          if adlib then
+          begin
+              if (config^.vol<>52) then
+              begin
+              if volu=true then
+              begin
+              config^.vol:=config^.vol-1;
+              radvolume(config^.vol);
+              writevol(config^.vol);
+              end;
+              end;
+              if volu=false then
+              writevol(52)
+          end;
+          end;
+          if c = 4 then
+          begin
+          dec(config^.curfnt);
+          if config^.curfnt<1 then
+             config^.curfnt:=config^.lastfnt;
+          textbackground(lightblue);textcolor(darkgray);
+          gotoxy(41-xpos,20);write('[');gotoxy(54-xpos,20);write(']');
+          textbackground(black);textcolor(darkgray);
+          gotoxy(42-xpos,20);write('            ');
+          gotoxy(42+((12-length(config^.font[config^.curfnt])) div 2)-xpos,20);write(config^.font[config^.curfnt]);
+          fontload(config^.font[config^.curfnt]);
+          end;
+          if c = 5 then
+          begin
+          flag:=false;
+          for s:= 0 to 15 do
+          begin
+          if (config^.scr[s,1]=0) or (config^.scr[s,2]=0) or (config^.scr[s,3]=0) then
+          flag:=true;
+          end;
+          if flag=false then
+          begin
+          for s:= 0 to 15 do
+          begin
+               dec(config^.scr[s,1],1);
+               dec(config^.scr[s,2],1);
+               dec(config^.scr[s,3],1);
+          end;
+               dec(brightness);
+          end;
+          changebrightness;
+          end;
+          if c = 6 then
+          begin
+               dec(cdactpos,1);
+               if cdactpos<1 then cdactpos:=8;
+               if cdactpos=2 then cdactpos:=1;
+               if cdactpos=7 then cdactpos:=6;
+               InitCdRom;
+          end;
+          end;
+    #13 : begin {lasim im rad o im hsc}
+               if (c=1) then
+               begin
+               if adlib then
+               begin
+                    if config^.muson=true then
+                    begin
+                       config^.muson:=false;
+{                       FadeSong;
+                       StopSong;
+                       ClearMem;}
+                       stoprad;
+                    end
+                    else
+                    begin
+                        config^.muson:=true;
+                        PlayMusic(config^.music[config^.curmus,1],config^.music[config^.curmus,2]);
+                    end;
+                    InitOnoffMusic;
+                    if playing then
+                    begin
+                    stopaudio;
+                    playing:=false;
+                    end;
+               end;
+               end;
+               if (c=3) then
+               begin
+                    if x<>19 then
+                       begin
+                            str:=config^.subfile[x][y];
+                            initsave(str);
+                       end;
+               showcursor;
+               if Getstr(42-xpos,19,str,12) then
+               savefile(f,str);
+               hidecursor;
+               end;
+               if c=6 then
+               begin
+               if cd then
+               begin
+                setup;
+                    if cdactpos = 1 then
+                    begin
+                         if pause then stopaudio;
+                         dec(cdsongpos);
+                         if cdsongpos<1 then cdsongpos:=endtrack;
+                         if playing then
+                         begin
+                         stopaudio;
+                         Play_Audio(TrackInfo[cdsongpos]^.StartPoint,
+                         TrackInfo[cdsongpos]^.EndPoint);
+                         end;
+                         cd:=true;
+                    end;
+                    if cdactpos = 3 then
+                    begin
+                         if config^.muson=true then
+                         begin
+{                              FadeSong;
+                              StopSong;
+                              ClearMem;}
+                              stoprad;
+                              config^.muson:=false;
+                              InitOnoffMusic;
+                         end;
+                         if not playing and not pause then
+                         begin
+                              Play_Audio(TrackInfo[cdsongpos]^.StartPoint,
+                              TrackInfo[cdsongpos]^.EndPoint);
+                              goto cdafter1;
+                         end;
+                         if pause then
+                         begin
+                              resume_play;
+                              pause:=false;
+                              goto cdafter1;
+                         end;
+                         if playing then
+                         begin
+                              Play_Audio(TrackInfo[cdsongpos]^.StartPoint,
+                              TrackInfo[cdsongpos]^.EndPoint);
+                         end;
+                         cdafter1:
+                    end;
+                    if cdactpos = 4 then
+                    begin
+                         if playing then stopaudio;
+                         if pause then pause:=false;
+                         if dooropen then
+                            closetray;
+                         if not dooropen then
+                            eject;
+                    end;
+                    if cdactpos = 5 then
+                    begin
+                         if playing then
+                         begin
+                              Pause_Audio;
+                              pause:=true;
+                              goto aftercd;
+                         end;
+                         if pause then
+                         begin
+                              resume_play;
+                              pause:=false;
+                         end;
+                         aftercd:
+                    end;
+                    if cdactpos = 6 then
+                    begin
+                         if playing then StopAudio;
+                         if pause then resume_play;
+                         playing:=false;
+                         cd:=true;
+                    end;
+                    if cdactpos = 8 then
+                    begin
+                         if pause then stopaudio;
+                         inc(cdsongpos);
+                         if cdsongpos>endtrack then cdsongpos:=1;
+                         if playing then
+                         begin
+                         stopaudio;
+                         Play_Audio(TrackInfo[cdsongpos]^.StartPoint,
+                         TrackInfo[cdsongpos]^.EndPoint);
+                         end;
+                         cd:=true;
+                    end;
+               cd:=true;
+               initcdrom;
+               end;
+               end;
+               if c=7 then
+               begin
+                    deletedatfile(hpmenufile);
+                    goto fin;
+               end;
+           end;
+      end;
+  if c = 8 then
+     c := 1;
+  if c = 0 then
+     c := 7;
+  write_help(c,topics,volu);
+  until true=false; {never....hehe}
+fin:
+FadedownRGBScreen;
+Reset80x25VideoScreen;
+end;
+
+end.

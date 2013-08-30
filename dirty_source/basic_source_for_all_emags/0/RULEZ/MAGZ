@@ -1,0 +1,125 @@
+
+Introduction: 
+-------------
+
+I have decided to share relativity's engine with the emag scene. The
+reason I have chosen to do this is because the emag scene is not what it 
+used to be. Since every emag releases once a month or even more, I decided
+to make a viewer. This new concept was originally built for relativity to 
+help and produce releases more often using the idea of 3 files; one is the 
+exe engine; 
+the other is the fx file which contains the music/game/fonts/other files 
+that are within every issue; the 3rd file is the file with the articles 
+and vga. Every time we release a file.mdb which is the dat file you just 
+have to use the viewer to read it. This saves time and problems for beta 
+testing, and uploads/downloads to and from sites, and most of all 
+compatibility problems . So you ask me, "How come you didn't keep this 
+to relativity alone?". Well, my answer to you is, "If every emag releases
+under the same engine there won't be anymore problems and code counts for 
+50% of the problems every release. You have to improve and remove bugs and
+beta test etc. If every one uses my idea we could make the emag scene a 
+better and more organized place for everyone involved.
+
+The engine is called, REV Relativity Emag Viewer!
+
+Recently, all groups (Relativity, CWS, The Gamers Edge )
+involved with releasing their emags using the Relativity,
+Viewer, have formed a universal channel on efnet. Everyone involved from 
+every emag will be aiding the creation of a primary channel, a primary ftp 
+site, and a primary website to distribute releases from all emags. This 
+project is being built from scratch and we need everyone from every emag 
+who is involved to join #emags and help us out. It would be very beneficial
+to everyone since ideas can be coordinated from group to group and issues 
+can be released much quicker than usual. This involves submitting, beta 
+testing and finally the release (99% bugless) for every emag. The 
+Relativity Emag Viewer is supported throughout a variety of platforms.
+Such platforms and requirements include:
+
+- 486DX/33MHZ OR BETTER
+- 8MB RAM OR HIGHER (EMS/XMS ENABLED)
+- VESA 32BIT OR 64BIT PCI VIDEO CARD (SVGA)
+- 8BIT SOUND CARD OR BETTER
+- OPERATING SYSTEMS INCLUDE DOS, LINUX W/DOSEMU, WINDOWS
+
+
+Scenelink is included in the wide range idea of #emags, 
+but for being a web  magazine the engine cannot host them .
+
+In order to stay organized we need to set rules, such as channel rules
+material submitting rules and emag relations rules.
+
+Every emag, newsletter is welcomed :) .
+
+Every emag can decide if it's a tri-weekly, bi-weekly, other weekly 
+released.
+
+
+Emag Relations:
+---------------
+
+* This is for emags that write scene related articles and interviews or 
+  emags that have sections that are similar to other emag's sections!
+
+No sharing of writers/artists in those emags since everyone has the same
+engine. We are starting from a near point and now instead of concentrating 
+on presidents and seniors. The writers and the artists are very important 
+to us. In my opinion, "An emag with more good writers will rise above the 
+others. No more code differences and the articles/material will decide 
+which emag is the best (competition is sky high)."
+
+No fighting with each other NO MATTER WHAT!
+
+Certain groups that are AFFILED with each other may decide not to be affiled
+with other emags, so don't try to steal affiliations and members or this 
+will cause a removal from #emags (not worth it).
+
+
+Submitting Rules: 
+-----------------
+
+If the council decides about quality control, emags must meet deadlines or 
+any other quality control implementation.
+
+For starters, everything is changeable in the engine, so you can do anything.
+
+All emags should be submitted to Muaddib in a RAR file including all vga art
+in GIF 87A format 640x480x256 colors, and all articles in binary files (acid
+draw saved as .bin) must be less than 64 * 1024 (64k), Muad Doesn't need 
+seperated files and he wont take them, when you release an issue put every
+little thing in the RAR file .
+
+Fli anims should not go above 500k, ansi menus should be 80x25 in .bin files
+and all articles must be edited fully, can be in ansi mode, or just plain 
+text but must be saved as binary! Emag must have its own ansi menus. I will
+not provide stuff from relativity or other emags to any group. They must 
+have enough room for a menu of 9 lines and 50 chars, in the middle. When 
+the engine will be in vga menus, changes will be announced .
+
+Text file containing the section and subsection topics must be included in 
+the RAR FILE, inorder to compile it, Muad will not do your JOBs, he only 
+compiles the packs PERIOD .
+
+All RAR packs will be submitted 3 days before the release date, it takes 
+about that time to compile, and beta test. To be 99% perfect, a pack must 
+be checked and double checked by the emag releasing it, MuadDib will not 
+take another file and will not compile over again. Make sure you do it 
+RIGHT the first time and the packed files must be perfect.
+
+The emag being released, will get a file.mdb, which is the main file that 
+by using the viewer could be run smoothly.
+
+
+Conclusion: 
+----------
+
+If you say that in the scene there are 50000 people couriering, hacking,
+cracking everyday and you look at the d\l from the dcc bots you would notice
+that it has about 5000 d\l in 2 days after an emag has been released. 
+Amazing, a 10% increase! Think about a bigger place with lots of emags 
+taking a cut of up to a 50% increase of the scene people, reaching everyone 
+out there!, just imagine 25000 people reading your little article on the 
+release day .. Interesting? Yeah, I thought so :)
+
+---------------------------------------------------------------------------
+If you would like to contribute to this project contact MuadDib on irc in 
+the channels #emags #relativity on efnet or by email at muaddib@usa.net.

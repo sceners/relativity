@@ -1,0 +1,7 @@
+{$M 65000,0,655360}
+uses revsmth,revconst,revansi,revdat,player;
+begin
+extractfilefromdat(muscfgfile);
+displayansi(muscfgfile);
+initexpmus;
+end.

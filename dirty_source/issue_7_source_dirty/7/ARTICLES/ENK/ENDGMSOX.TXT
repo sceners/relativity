@@ -1,0 +1,33 @@
+I recently attended a seminar that was supposed to be for Windows NT
+Administration. What it turned out to be was more of a promotional seminar
+regarding products from Digital, Microsoft, and Onyx. The Digital
+Corporation is getting ready to unleash their new 600MHz Alpha Processor.
+They are also planning ahead and according to Digital's statistics they
+plan to have CPU's capable of putting out speeds of up to 1.2GHz designed
+specifically for integration with Digital UNIX and Microsoft Windows NT
+operating systems. In the next release of Windows NT 5.0, Microsoft plans
+to add more functionality to remote administration. This will allow
+administrators and users to be able to remotely see and interact with or
+configure workstations and servers remotely without the need to be
+physically at the workstation or server. This will enable administrators
+to simplify tasks such as setting up network protocols that you would
+otherwise have to configure independently for each workstation. Another
+thing is that Microsoft does not add/modify Windows 95 according to what
+they want. They want users to provide more feedback reguarding Windows 95
+and how to improve it. If users don't provide Microsoft with feedback, the
+features don't get implemented. To all those people who ALWAYS COMPLAIN
+about Windows 95 and how it sucks. Why don't you submit feedback so that
+it dosen't suck in the next release? People just complain and don't do
+anything about it. What a bunch of dummies! Don't be a dummy and help the
+software products become better based on your feedback. After the seminar,
+I submitted a list of things they could improve on for Windows 95/98 that
+haven't been implemented yet. Notice that Microsoft is starting to go more
+towards enhancing their operating systems with functions that UNIX already
+supports. This is a good move because it can help them produce better and
+perhaps more reliable products. I use both linux and windows. When I get
+sick of the limiting text interface I move to windows. When I feel like I
+have the need to type/configure and have fun I go into linux. One other
+thing Microsoft has to work on is SECURITY! We all know about this I'm
+sure. Netware is even more secure than Windows NT is right now anyday! So
+before you go and invest into something that you don't know too much about
+even though you think you know, inform yourself. Later people...
