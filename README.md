@@ -5,4 +5,4 @@ Relativity was a disk-magazine created for the PC [MS-DOS operating system](http
 
 The original compiled releases of Relativity can be found at https://defacto2.net/organisation/relativity both for download and viewing in the browser using JavaScript emulation.
 
-1[Relativity issue 1 screenshot](https://defacto2.net/images/uuid/preview/c8d0cc45-2f54-11e0-8827-cc1607e15609.png)
+![Relativity issue 1 screenshot](https://defacto2.net/images/uuid/preview/c8d0cc45-2f54-11e0-8827-cc1607e15609.png)
