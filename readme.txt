@@ -5,7 +5,7 @@ Please note that not all the code contained in these packages are original Relat
 On a side note most of the code created in Borland Turbo Pascal 7.
 
 If you wish to download the compiled released versions of the magazine visit
-http://www.defacto2.net/magazines-detail.cfm?title=Relativity
+https://defacto2.net/g/relativity
 
 
 Ipggi
